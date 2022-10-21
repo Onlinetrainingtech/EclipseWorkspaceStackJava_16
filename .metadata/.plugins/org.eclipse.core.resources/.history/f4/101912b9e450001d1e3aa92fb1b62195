@@ -1,0 +1,24 @@
+
+class Sample
+{
+	void fun1()
+	{
+		int pid=1001;//local variable
+	}
+	void display()
+	{
+		
+	}
+}
+
+public class Demo {
+
+	public static void main(String[] args) {
+		
+		Sample f1=new Sample();
+		f1.fun1();
+		f1.display();
+
+	}
+
+}
