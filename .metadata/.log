@@ -1984,3 +1984,2024 @@ This warning can be switched off on the Team > Git > Confirmations and Warnings 
 
 !ENTRY org.eclipse.m2e.logback.appender 2 0 2022-11-13 07:33:20.472
 !MESSAGE 
+!SESSION 2022-11-14 06:52:21.636 -----------------------------------------------
+eclipse.buildId=4.23.0.I20220308-0310
+java.version=17.0.2
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.jface 2 0 2022-11-14 06:53:23.042
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2022-11-14 06:53:23.042
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@6a2b6031,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@2e4262d2,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2022-11-14 06:53:23.042
+!MESSAGE A conflict occurred for ALT+SHIFT+R:
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.jdt.ui.category.refactoring,Refactor - Java,Java Refactoring Actions,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@546ca9da,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.rename,Rename,
+		Rename the selected item,
+		Category(org.eclipse.ui.category.file,File,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@257e8c43,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.egit.ui 2 0 2022-11-14 06:53:39.068
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\moham'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-11-14 06:53:43.938
+!MESSAGE 
+!SESSION 2022-11-15 06:59:15.817 -----------------------------------------------
+eclipse.buildId=4.23.0.I20220308-0310
+java.version=17.0.2
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.jface 2 0 2022-11-15 07:00:06.396
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2022-11-15 07:00:06.396
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@257e8c43,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@14e54a35,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2022-11-15 07:00:06.396
+!MESSAGE A conflict occurred for ALT+SHIFT+R:
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.jdt.ui.category.refactoring,Refactor - Java,Java Refactoring Actions,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@298cfe89,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.rename,Rename,
+		Rename the selected item,
+		Category(org.eclipse.ui.category.file,File,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@189fb01b,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.egit.ui 2 0 2022-11-15 07:00:34.148
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\moham'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-11-15 07:00:43.293
+!MESSAGE 
+
+!ENTRY org.eclipse.wb.core 4 4 2022-11-15 07:13:12.458
+!MESSAGE Designer [1.11.0.202210231159.202211150713]: 205 (Unable to parse source.). 
+		contentPane.setLayout(null); line: 1 The import java.awt.EventQueue is never used
+line: 3 The import javax.swing.JPanel is never used
+line: 4 The import javax.swing.border.EmptyBorder is never used
+line: 5 The serializable class HomePage does not declare a static final serialVersionUID field of type long
+!STACK 0
+org.eclipse.wb.internal.core.utils.exception.DesignerException: 205 (Unable to parse source.). 
+		contentPane.setLayout(null); line: 1 The import java.awt.EventQueue is never used
+line: 3 The import javax.swing.JPanel is never used
+line: 4 The import javax.swing.border.EmptyBorder is never used
+line: 5 The serializable class HomePage does not declare a static final serialVersionUID field of type long
+	at org.eclipse.wb.internal.core.utils.ast.AstParser.parseStatement(AstParser.java:162)
+	at org.eclipse.wb.internal.core.utils.ast.AstEditor.addStatement(AstEditor.java:1628)
+	at org.eclipse.wb.internal.core.model.generation.statement.AbstractInsideStatementGenerator.add(AbstractInsideStatementGenerator.java:82)
+	at org.eclipse.wb.internal.core.model.generation.statement.PureFlatStatementGenerator.add(PureFlatStatementGenerator.java:45)
+	at org.eclipse.wb.internal.core.model.JavaInfoUtils.add(JavaInfoUtils.java:1392)
+	at org.eclipse.wb.internal.core.model.JavaInfoUtils.add(JavaInfoUtils.java:1295)
+	at org.eclipse.wb.internal.swing.model.component.ContainerInfo.setLayout(ContainerInfo.java:430)
+	at org.eclipse.wb.internal.swing.gef.policy.layout.DropLayoutEditPolicy$1.executeEdit(DropLayoutEditPolicy.java:81)
+	at org.eclipse.wb.core.gef.command.EditCommand$1.run(EditCommand.java:53)
+	at org.eclipse.wb.internal.core.utils.execution.ExecutionUtils.run(ExecutionUtils.java:331)
+	at org.eclipse.wb.core.gef.command.EditCommand.execute(EditCommand.java:50)
+	at org.eclipse.wb.internal.gef.core.EditDomain.executeCommand(EditDomain.java:59)
+	at org.eclipse.wb.gef.core.tools.Tool.executeCommand(Tool.java:209)
+	at org.eclipse.wb.gef.core.tools.AbstractCreationTool.handleButtonUp(AbstractCreationTool.java:62)
+	at org.eclipse.wb.gef.core.tools.Tool.mouseUp(Tool.java:395)
+	at org.eclipse.wb.internal.gef.core.EditDomain.mouseUp(EditDomain.java:255)
+	at org.eclipse.wb.internal.gef.graphical.EditEventManager.mouseUp(EditEventManager.java:151)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.wb.internal.draw2d.EventManager$1.invoke(EventManager.java:317)
+	at jdk.proxy10/jdk.proxy10.$Proxy43.mouseUp(Unknown Source)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:224)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4243)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1063)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4060)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3632)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+Caused by: org.eclipse.wb.internal.core.utils.exception.DesignerException: 205 (Unable to parse source.). import java.awt.EventQueue;
+import javax.swing.JFrame;
+import javax.swing.JPanel;
+import javax.swing.border.EmptyBorder;
+class HomePage extends JFrame {
+javax.swing.JPanel contentPane=(javax.swing.JPanel) null;
+public static void main(String[] args) {}
+HomePage(Object __wbp_param) {
+super();
+		contentPane.setLayout(null);}
+} line: 1 The import java.awt.EventQueue is never used
+line: 3 The import javax.swing.JPanel is never used
+line: 4 The import javax.swing.border.EmptyBorder is never used
+line: 5 The serializable class HomePage does not declare a static final serialVersionUID field of type long
+	at org.eclipse.wb.internal.core.utils.ast.AstParser.findNode(AstParser.java:773)
+	at org.eclipse.wb.internal.core.utils.ast.AstParser.parseStatement(AstParser.java:159)
+	... 49 more
+Caused by: java.lang.NoSuchMethodError: 'java.lang.String[] org.eclipse.jdt.core.dom.IMethodBinding.getParameterNames()'
+	at org.eclipse.wb.internal.core.utils.ast.binding.DesignerMethodBinding.<init>(DesignerMethodBinding.java:56)
+	at org.eclipse.wb.internal.core.utils.ast.binding.BindingContext.get(BindingContext.java:87)
+	at org.eclipse.wb.internal.core.utils.ast.binding.DesignerTypeBinding.<init>(DesignerTypeBinding.java:160)
+	at org.eclipse.wb.internal.core.utils.ast.binding.BindingContext.get(BindingContext.java:70)
+	at org.eclipse.wb.internal.core.utils.ast.binding.DesignerTypeBinding.<init>(DesignerTypeBinding.java:146)
+	at org.eclipse.wb.internal.core.utils.ast.binding.BindingContext.get(BindingContext.java:70)
+	at org.eclipse.wb.internal.core.utils.ast.binding.DesignerTypeBinding.<init>(DesignerTypeBinding.java:146)
+	at org.eclipse.wb.internal.core.utils.ast.binding.BindingContext.get(BindingContext.java:70)
+	at org.eclipse.wb.internal.core.utils.ast.binding.DesignerTypeBinding.<init>(DesignerTypeBinding.java:146)
+	at org.eclipse.wb.internal.core.utils.ast.binding.BindingContext.get(BindingContext.java:70)
+	at org.eclipse.wb.internal.core.utils.ast.binding.DesignerTypeBinding.<init>(DesignerTypeBinding.java:146)
+	at org.eclipse.wb.internal.core.utils.ast.binding.BindingContext.get(BindingContext.java:70)
+	at org.eclipse.wb.internal.core.utils.ast.binding.DesignerVariableBinding.<init>(DesignerVariableBinding.java:44)
+	at org.eclipse.wb.internal.core.utils.ast.binding.BindingContext.get(BindingContext.java:94)
+	at org.eclipse.wb.internal.core.utils.ast.AstParser$3.postVisit(AstParser.java:935)
+	at org.eclipse.jdt.core.dom.ASTNode.accept(ASTNode.java:3132)
+	at org.eclipse.jdt.core.dom.ASTNode.acceptChild(ASTNode.java:3177)
+	at org.eclipse.jdt.core.dom.MethodInvocation.accept0(MethodInvocation.java:223)
+	at org.eclipse.jdt.core.dom.ASTNode.accept(ASTNode.java:3129)
+	at org.eclipse.jdt.core.dom.ASTNode.acceptChild(ASTNode.java:3177)
+	at org.eclipse.jdt.core.dom.ExpressionStatement.accept0(ExpressionStatement.java:136)
+	at org.eclipse.jdt.core.dom.ASTNode.accept(ASTNode.java:3129)
+	at org.eclipse.wb.internal.core.utils.ast.AstParser.copyBindings(AstParser.java:925)
+	at org.eclipse.wb.internal.core.utils.ast.AstParser.findNode0(AstParser.java:827)
+	at org.eclipse.wb.internal.core.utils.ast.AstParser.findNode(AstParser.java:770)
+	... 50 more
+
+!ENTRY org.eclipse.wb.core 4 4 2022-11-15 07:13:28.501
+!MESSAGE Designer [1.11.0.202210231159.202211150713]: 205 (Unable to parse source.). 
+		contentPane.setLayout(null); line: 1 The import java.awt.EventQueue is never used
+line: 3 The import javax.swing.JPanel is never used
+line: 4 The import javax.swing.border.EmptyBorder is never used
+line: 5 The serializable class UserHomePage does not declare a static final serialVersionUID field of type long
+!STACK 0
+org.eclipse.wb.internal.core.utils.exception.DesignerException: 205 (Unable to parse source.). 
+		contentPane.setLayout(null); line: 1 The import java.awt.EventQueue is never used
+line: 3 The import javax.swing.JPanel is never used
+line: 4 The import javax.swing.border.EmptyBorder is never used
+line: 5 The serializable class UserHomePage does not declare a static final serialVersionUID field of type long
+	at org.eclipse.wb.internal.core.utils.ast.AstParser.parseStatement(AstParser.java:162)
+	at org.eclipse.wb.internal.core.utils.ast.AstEditor.addStatement(AstEditor.java:1628)
+	at org.eclipse.wb.internal.core.model.generation.statement.AbstractInsideStatementGenerator.add(AbstractInsideStatementGenerator.java:82)
+	at org.eclipse.wb.internal.core.model.generation.statement.PureFlatStatementGenerator.add(PureFlatStatementGenerator.java:45)
+	at org.eclipse.wb.internal.core.model.JavaInfoUtils.add(JavaInfoUtils.java:1392)
+	at org.eclipse.wb.internal.core.model.JavaInfoUtils.add(JavaInfoUtils.java:1295)
+	at org.eclipse.wb.internal.swing.model.component.ContainerInfo.setLayout(ContainerInfo.java:430)
+	at org.eclipse.wb.internal.swing.gef.policy.layout.DropLayoutEditPolicy$1.executeEdit(DropLayoutEditPolicy.java:81)
+	at org.eclipse.wb.core.gef.command.EditCommand$1.run(EditCommand.java:53)
+	at org.eclipse.wb.internal.core.utils.execution.ExecutionUtils.run(ExecutionUtils.java:331)
+	at org.eclipse.wb.core.gef.command.EditCommand.execute(EditCommand.java:50)
+	at org.eclipse.wb.internal.gef.core.EditDomain.executeCommand(EditDomain.java:59)
+	at org.eclipse.wb.gef.core.tools.Tool.executeCommand(Tool.java:209)
+	at org.eclipse.wb.gef.core.tools.AbstractCreationTool.handleButtonUp(AbstractCreationTool.java:62)
+	at org.eclipse.wb.gef.core.tools.Tool.mouseUp(Tool.java:395)
+	at org.eclipse.wb.internal.gef.core.EditDomain.mouseUp(EditDomain.java:255)
+	at org.eclipse.wb.internal.gef.graphical.EditEventManager.mouseUp(EditEventManager.java:151)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.wb.internal.draw2d.EventManager$1.invoke(EventManager.java:317)
+	at jdk.proxy10/jdk.proxy10.$Proxy43.mouseUp(Unknown Source)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:224)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4243)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1063)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4060)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3632)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+Caused by: org.eclipse.wb.internal.core.utils.exception.DesignerException: 205 (Unable to parse source.). import java.awt.EventQueue;
+import javax.swing.JFrame;
+import javax.swing.JPanel;
+import javax.swing.border.EmptyBorder;
+class UserHomePage extends JFrame {
+javax.swing.JPanel contentPane=(javax.swing.JPanel) null;
+public static void main(String[] args) {}
+UserHomePage(Object __wbp_param) {
+super();
+		contentPane.setLayout(null);}
+} line: 1 The import java.awt.EventQueue is never used
+line: 3 The import javax.swing.JPanel is never used
+line: 4 The import javax.swing.border.EmptyBorder is never used
+line: 5 The serializable class UserHomePage does not declare a static final serialVersionUID field of type long
+	at org.eclipse.wb.internal.core.utils.ast.AstParser.findNode(AstParser.java:773)
+	at org.eclipse.wb.internal.core.utils.ast.AstParser.parseStatement(AstParser.java:159)
+	... 49 more
+Caused by: java.lang.NoSuchMethodError: 'java.lang.String[] org.eclipse.jdt.core.dom.IMethodBinding.getParameterNames()'
+	at org.eclipse.wb.internal.core.utils.ast.binding.DesignerMethodBinding.<init>(DesignerMethodBinding.java:56)
+	at org.eclipse.wb.internal.core.utils.ast.binding.BindingContext.get(BindingContext.java:87)
+	at org.eclipse.wb.internal.core.utils.ast.binding.DesignerTypeBinding.<init>(DesignerTypeBinding.java:160)
+	at org.eclipse.wb.internal.core.utils.ast.binding.BindingContext.get(BindingContext.java:70)
+	at org.eclipse.wb.internal.core.utils.ast.binding.DesignerTypeBinding.<init>(DesignerTypeBinding.java:146)
+	at org.eclipse.wb.internal.core.utils.ast.binding.BindingContext.get(BindingContext.java:70)
+	at org.eclipse.wb.internal.core.utils.ast.binding.DesignerTypeBinding.<init>(DesignerTypeBinding.java:146)
+	at org.eclipse.wb.internal.core.utils.ast.binding.BindingContext.get(BindingContext.java:70)
+	at org.eclipse.wb.internal.core.utils.ast.binding.DesignerTypeBinding.<init>(DesignerTypeBinding.java:146)
+	at org.eclipse.wb.internal.core.utils.ast.binding.BindingContext.get(BindingContext.java:70)
+	at org.eclipse.wb.internal.core.utils.ast.binding.DesignerTypeBinding.<init>(DesignerTypeBinding.java:146)
+	at org.eclipse.wb.internal.core.utils.ast.binding.BindingContext.get(BindingContext.java:70)
+	at org.eclipse.wb.internal.core.utils.ast.binding.DesignerVariableBinding.<init>(DesignerVariableBinding.java:44)
+	at org.eclipse.wb.internal.core.utils.ast.binding.BindingContext.get(BindingContext.java:94)
+	at org.eclipse.wb.internal.core.utils.ast.AstParser$3.postVisit(AstParser.java:935)
+	at org.eclipse.jdt.core.dom.ASTNode.accept(ASTNode.java:3132)
+	at org.eclipse.jdt.core.dom.ASTNode.acceptChild(ASTNode.java:3177)
+	at org.eclipse.jdt.core.dom.MethodInvocation.accept0(MethodInvocation.java:223)
+	at org.eclipse.jdt.core.dom.ASTNode.accept(ASTNode.java:3129)
+	at org.eclipse.jdt.core.dom.ASTNode.acceptChild(ASTNode.java:3177)
+	at org.eclipse.jdt.core.dom.ExpressionStatement.accept0(ExpressionStatement.java:136)
+	at org.eclipse.jdt.core.dom.ASTNode.accept(ASTNode.java:3129)
+	at org.eclipse.wb.internal.core.utils.ast.AstParser.copyBindings(AstParser.java:925)
+	at org.eclipse.wb.internal.core.utils.ast.AstParser.findNode0(AstParser.java:827)
+	at org.eclipse.wb.internal.core.utils.ast.AstParser.findNode(AstParser.java:770)
+	... 50 more
+
+!ENTRY org.eclipse.wb.core 4 4 2022-11-15 07:14:14.110
+!MESSAGE Designer [1.11.0.202210231159.202211150713]: 205 (Unable to parse source.). 
+		contentPane.setLayout(null); line: 1 The import java.awt.EventQueue is never used
+line: 3 The import javax.swing.JPanel is never used
+line: 4 The import javax.swing.border.EmptyBorder is never used
+line: 5 The serializable class UserLogin does not declare a static final serialVersionUID field of type long
+!STACK 0
+org.eclipse.wb.internal.core.utils.exception.DesignerException: 205 (Unable to parse source.). 
+		contentPane.setLayout(null); line: 1 The import java.awt.EventQueue is never used
+line: 3 The import javax.swing.JPanel is never used
+line: 4 The import javax.swing.border.EmptyBorder is never used
+line: 5 The serializable class UserLogin does not declare a static final serialVersionUID field of type long
+	at org.eclipse.wb.internal.core.utils.ast.AstParser.parseStatement(AstParser.java:162)
+	at org.eclipse.wb.internal.core.utils.ast.AstEditor.addStatement(AstEditor.java:1628)
+	at org.eclipse.wb.internal.core.model.generation.statement.AbstractInsideStatementGenerator.add(AbstractInsideStatementGenerator.java:82)
+	at org.eclipse.wb.internal.core.model.generation.statement.PureFlatStatementGenerator.add(PureFlatStatementGenerator.java:45)
+	at org.eclipse.wb.internal.core.model.JavaInfoUtils.add(JavaInfoUtils.java:1392)
+	at org.eclipse.wb.internal.core.model.JavaInfoUtils.add(JavaInfoUtils.java:1295)
+	at org.eclipse.wb.internal.swing.model.component.ContainerInfo.setLayout(ContainerInfo.java:430)
+	at org.eclipse.wb.internal.swing.gef.policy.layout.DropLayoutEditPolicy$1.executeEdit(DropLayoutEditPolicy.java:81)
+	at org.eclipse.wb.core.gef.command.EditCommand$1.run(EditCommand.java:53)
+	at org.eclipse.wb.internal.core.utils.execution.ExecutionUtils.run(ExecutionUtils.java:331)
+	at org.eclipse.wb.core.gef.command.EditCommand.execute(EditCommand.java:50)
+	at org.eclipse.wb.internal.gef.core.EditDomain.executeCommand(EditDomain.java:59)
+	at org.eclipse.wb.gef.core.tools.Tool.executeCommand(Tool.java:209)
+	at org.eclipse.wb.gef.core.tools.AbstractCreationTool.handleButtonUp(AbstractCreationTool.java:62)
+	at org.eclipse.wb.gef.core.tools.Tool.mouseUp(Tool.java:395)
+	at org.eclipse.wb.internal.gef.core.EditDomain.mouseUp(EditDomain.java:255)
+	at org.eclipse.wb.internal.gef.graphical.EditEventManager.mouseUp(EditEventManager.java:151)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.wb.internal.draw2d.EventManager$1.invoke(EventManager.java:317)
+	at jdk.proxy10/jdk.proxy10.$Proxy43.mouseUp(Unknown Source)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:224)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4243)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1063)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4060)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3632)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+Caused by: org.eclipse.wb.internal.core.utils.exception.DesignerException: 205 (Unable to parse source.). import java.awt.EventQueue;
+import javax.swing.JFrame;
+import javax.swing.JPanel;
+import javax.swing.border.EmptyBorder;
+class UserLogin extends JFrame {
+javax.swing.JPanel contentPane=(javax.swing.JPanel) null;
+public static void main(String[] args) {}
+UserLogin(Object __wbp_param) {
+super();
+		contentPane.setLayout(null);}
+} line: 1 The import java.awt.EventQueue is never used
+line: 3 The import javax.swing.JPanel is never used
+line: 4 The import javax.swing.border.EmptyBorder is never used
+line: 5 The serializable class UserLogin does not declare a static final serialVersionUID field of type long
+	at org.eclipse.wb.internal.core.utils.ast.AstParser.findNode(AstParser.java:773)
+	at org.eclipse.wb.internal.core.utils.ast.AstParser.parseStatement(AstParser.java:159)
+	... 49 more
+Caused by: java.lang.NoSuchMethodError: 'java.lang.String[] org.eclipse.jdt.core.dom.IMethodBinding.getParameterNames()'
+	at org.eclipse.wb.internal.core.utils.ast.binding.DesignerMethodBinding.<init>(DesignerMethodBinding.java:56)
+	at org.eclipse.wb.internal.core.utils.ast.binding.BindingContext.get(BindingContext.java:87)
+	at org.eclipse.wb.internal.core.utils.ast.binding.DesignerTypeBinding.<init>(DesignerTypeBinding.java:160)
+	at org.eclipse.wb.internal.core.utils.ast.binding.BindingContext.get(BindingContext.java:70)
+	at org.eclipse.wb.internal.core.utils.ast.binding.DesignerTypeBinding.<init>(DesignerTypeBinding.java:146)
+	at org.eclipse.wb.internal.core.utils.ast.binding.BindingContext.get(BindingContext.java:70)
+	at org.eclipse.wb.internal.core.utils.ast.binding.DesignerTypeBinding.<init>(DesignerTypeBinding.java:146)
+	at org.eclipse.wb.internal.core.utils.ast.binding.BindingContext.get(BindingContext.java:70)
+	at org.eclipse.wb.internal.core.utils.ast.binding.DesignerTypeBinding.<init>(DesignerTypeBinding.java:146)
+	at org.eclipse.wb.internal.core.utils.ast.binding.BindingContext.get(BindingContext.java:70)
+	at org.eclipse.wb.internal.core.utils.ast.binding.DesignerTypeBinding.<init>(DesignerTypeBinding.java:146)
+	at org.eclipse.wb.internal.core.utils.ast.binding.BindingContext.get(BindingContext.java:70)
+	at org.eclipse.wb.internal.core.utils.ast.binding.DesignerVariableBinding.<init>(DesignerVariableBinding.java:44)
+	at org.eclipse.wb.internal.core.utils.ast.binding.BindingContext.get(BindingContext.java:94)
+	at org.eclipse.wb.internal.core.utils.ast.AstParser$3.postVisit(AstParser.java:935)
+	at org.eclipse.jdt.core.dom.ASTNode.accept(ASTNode.java:3132)
+	at org.eclipse.jdt.core.dom.ASTNode.acceptChild(ASTNode.java:3177)
+	at org.eclipse.jdt.core.dom.MethodInvocation.accept0(MethodInvocation.java:223)
+	at org.eclipse.jdt.core.dom.ASTNode.accept(ASTNode.java:3129)
+	at org.eclipse.jdt.core.dom.ASTNode.acceptChild(ASTNode.java:3177)
+	at org.eclipse.jdt.core.dom.ExpressionStatement.accept0(ExpressionStatement.java:136)
+	at org.eclipse.jdt.core.dom.ASTNode.accept(ASTNode.java:3129)
+	at org.eclipse.wb.internal.core.utils.ast.AstParser.copyBindings(AstParser.java:925)
+	at org.eclipse.wb.internal.core.utils.ast.AstParser.findNode0(AstParser.java:827)
+	at org.eclipse.wb.internal.core.utils.ast.AstParser.findNode(AstParser.java:770)
+	... 50 more
+
+!ENTRY org.eclipse.wb.core 4 4 2022-11-15 07:15:10.678
+!MESSAGE Designer [1.11.0.202210231159.202211150713]: 205 (Unable to parse source.). 
+		
+		javax.swing.JLabel label = new javax.swing.JLabel("New label"); line: 1 The import java.awt.EventQueue is never used
+line: 3 The import javax.swing.JPanel is never used
+line: 4 The import javax.swing.border.EmptyBorder is never used
+line: 5 The serializable class UserRegister does not declare a static final serialVersionUID field of type long
+line: 11 The value of the local variable label is not used
+!STACK 0
+org.eclipse.wb.internal.core.utils.exception.DesignerException: 205 (Unable to parse source.). 
+		
+		javax.swing.JLabel label = new javax.swing.JLabel("New label"); line: 1 The import java.awt.EventQueue is never used
+line: 3 The import javax.swing.JPanel is never used
+line: 4 The import javax.swing.border.EmptyBorder is never used
+line: 5 The serializable class UserRegister does not declare a static final serialVersionUID field of type long
+line: 11 The value of the local variable label is not used
+	at org.eclipse.wb.internal.core.utils.ast.AstParser.parseStatement(AstParser.java:162)
+	at org.eclipse.wb.internal.core.utils.ast.AstEditor.addStatement(AstEditor.java:1628)
+	at org.eclipse.wb.internal.core.model.generation.statement.AbstractInsideStatementGenerator.add(AbstractInsideStatementGenerator.java:82)
+	at org.eclipse.wb.internal.core.model.generation.statement.flat.FlatStatementGenerator.add(FlatStatementGenerator.java:66)
+	at org.eclipse.wb.internal.core.model.JavaInfoUtils.add(JavaInfoUtils.java:1392)
+	at org.eclipse.wb.internal.core.model.JavaInfoUtils.add(JavaInfoUtils.java:1295)
+	at org.eclipse.wb.internal.core.model.JavaInfoUtils.add(JavaInfoUtils.java:1225)
+	at org.eclipse.wb.internal.swing.model.layout.LayoutInfo.add(LayoutInfo.java:330)
+	at org.eclipse.wb.internal.swing.model.layout.GenericFlowLayoutInfo.add(GenericFlowLayoutInfo.java:52)
+	at org.eclipse.wb.internal.swing.gef.policy.layout.GenericFlowLayoutEditPolicy.command_CREATE(GenericFlowLayoutEditPolicy.java:84)
+	at org.eclipse.wb.internal.swing.gef.policy.layout.GenericFlowLayoutEditPolicy.command_CREATE(GenericFlowLayoutEditPolicy.java:1)
+	at org.eclipse.wb.core.gef.policy.layout.flow.ObjectFlowLayoutEditPolicy$1.executeEdit(ObjectFlowLayoutEditPolicy.java:54)
+	at org.eclipse.wb.core.gef.command.EditCommand$1.run(EditCommand.java:53)
+	at org.eclipse.wb.internal.core.utils.execution.ExecutionUtils.run(ExecutionUtils.java:331)
+	at org.eclipse.wb.core.gef.command.EditCommand.execute(EditCommand.java:50)
+	at org.eclipse.wb.internal.gef.core.EditDomain.executeCommand(EditDomain.java:59)
+	at org.eclipse.wb.gef.core.tools.Tool.executeCommand(Tool.java:209)
+	at org.eclipse.wb.gef.core.tools.AbstractCreationTool.handleButtonUp(AbstractCreationTool.java:62)
+	at org.eclipse.wb.gef.core.tools.Tool.mouseUp(Tool.java:395)
+	at org.eclipse.wb.internal.gef.core.EditDomain.mouseUp(EditDomain.java:255)
+	at org.eclipse.wb.internal.gef.graphical.EditEventManager.mouseUp(EditEventManager.java:151)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.wb.internal.draw2d.EventManager$1.invoke(EventManager.java:317)
+	at jdk.proxy10/jdk.proxy10.$Proxy43.mouseUp(Unknown Source)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:224)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4243)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1063)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4060)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3632)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+Caused by: org.eclipse.wb.internal.core.utils.exception.DesignerException: 205 (Unable to parse source.). import java.awt.EventQueue;
+import javax.swing.JFrame;
+import javax.swing.JPanel;
+import javax.swing.border.EmptyBorder;
+class UserRegister extends JFrame {
+javax.swing.JPanel contentPane=(javax.swing.JPanel) null;
+public static void main(String[] args) {}
+UserRegister(Object __wbp_param) {
+super();
+		
+		javax.swing.JLabel label = new javax.swing.JLabel("New label");}
+} line: 1 The import java.awt.EventQueue is never used
+line: 3 The import javax.swing.JPanel is never used
+line: 4 The import javax.swing.border.EmptyBorder is never used
+line: 5 The serializable class UserRegister does not declare a static final serialVersionUID field of type long
+line: 11 The value of the local variable label is not used
+	at org.eclipse.wb.internal.core.utils.ast.AstParser.findNode(AstParser.java:773)
+	at org.eclipse.wb.internal.core.utils.ast.AstParser.parseStatement(AstParser.java:159)
+	... 53 more
+Caused by: java.lang.NoSuchMethodError: 'java.lang.String[] org.eclipse.jdt.core.dom.IMethodBinding.getParameterNames()'
+	at org.eclipse.wb.internal.core.utils.ast.binding.DesignerMethodBinding.<init>(DesignerMethodBinding.java:56)
+	at org.eclipse.wb.internal.core.utils.ast.binding.BindingContext.get(BindingContext.java:87)
+	at org.eclipse.wb.internal.core.utils.ast.binding.DesignerTypeBinding.<init>(DesignerTypeBinding.java:160)
+	at org.eclipse.wb.internal.core.utils.ast.binding.BindingContext.get(BindingContext.java:70)
+	at org.eclipse.wb.internal.core.utils.ast.binding.DesignerTypeBinding.<init>(DesignerTypeBinding.java:146)
+	at org.eclipse.wb.internal.core.utils.ast.binding.BindingContext.get(BindingContext.java:70)
+	at org.eclipse.wb.internal.core.utils.ast.binding.DesignerTypeBinding.<init>(DesignerTypeBinding.java:146)
+	at org.eclipse.wb.internal.core.utils.ast.binding.BindingContext.get(BindingContext.java:70)
+	at org.eclipse.wb.internal.core.utils.ast.binding.DesignerTypeBinding.<init>(DesignerTypeBinding.java:146)
+	at org.eclipse.wb.internal.core.utils.ast.binding.BindingContext.get(BindingContext.java:70)
+	at org.eclipse.wb.internal.core.utils.ast.binding.DesignerTypeBinding.<init>(DesignerTypeBinding.java:146)
+	at org.eclipse.wb.internal.core.utils.ast.binding.BindingContext.get(BindingContext.java:70)
+	at org.eclipse.wb.internal.core.utils.ast.AstParser$3.postVisit(AstParser.java:946)
+	at org.eclipse.jdt.core.dom.ASTNode.accept(ASTNode.java:3132)
+	at org.eclipse.jdt.core.dom.ASTNode.acceptChild(ASTNode.java:3177)
+	at org.eclipse.jdt.core.dom.QualifiedName.accept0(QualifiedName.java:163)
+	at org.eclipse.jdt.core.dom.ASTNode.accept(ASTNode.java:3129)
+	at org.eclipse.jdt.core.dom.ASTNode.acceptChild(ASTNode.java:3177)
+	at org.eclipse.jdt.core.dom.SimpleType.accept0(SimpleType.java:195)
+	at org.eclipse.jdt.core.dom.ASTNode.accept(ASTNode.java:3129)
+	at org.eclipse.jdt.core.dom.ASTNode.acceptChild(ASTNode.java:3177)
+	at org.eclipse.jdt.core.dom.VariableDeclarationStatement.accept0(VariableDeclarationStatement.java:253)
+	at org.eclipse.jdt.core.dom.ASTNode.accept(ASTNode.java:3129)
+	at org.eclipse.wb.internal.core.utils.ast.AstParser.copyBindings(AstParser.java:925)
+	at org.eclipse.wb.internal.core.utils.ast.AstParser.findNode0(AstParser.java:827)
+	at org.eclipse.wb.internal.core.utils.ast.AstParser.findNode(AstParser.java:770)
+	... 54 more
+
+!ENTRY org.eclipse.ui.ide 4 4 2022-11-15 07:15:51.092
+!MESSAGE Not properly disposed SWT resource
+!STACK 0
+java.lang.Error: SWT Resource was not properly disposed
+	at org.eclipse.swt.graphics.Resource.initNonDisposeTracking(Resource.java:172)
+	at org.eclipse.swt.graphics.Resource.<init>(Resource.java:120)
+	at org.eclipse.swt.graphics.Image.<init>(Image.java:605)
+	at org.eclipse.wb.internal.core.model.description.helpers.DescriptionHelper.getIconImage(DescriptionHelper.java:166)
+	at org.eclipse.wb.internal.core.model.description.helpers.ComponentPresentationHelper.getComponentImage(ComponentPresentationHelper.java:166)
+	at org.eclipse.wb.internal.core.model.description.helpers.ComponentPresentationHelper.getFastPresentation(ComponentPresentationHelper.java:139)
+	at org.eclipse.wb.internal.core.model.description.helpers.ComponentPresentationHelper.getPresentation(ComponentPresentationHelper.java:114)
+	at org.eclipse.wb.core.editor.palette.model.entry.ComponentEntryInfo.preparePresentation(ComponentEntryInfo.java:259)
+	at org.eclipse.wb.core.editor.palette.model.entry.ComponentEntryInfo.initialize(ComponentEntryInfo.java:219)
+	at org.eclipse.wb.internal.core.editor.palette.DesignerPalette.getVisualEntry(DesignerPalette.java:267)
+	at org.eclipse.wb.internal.core.editor.palette.DesignerPalette$4.getEntries(DesignerPalette.java:347)
+	at org.eclipse.wb.core.controls.palette.PaletteComposite$CategoryFigure.<init>(PaletteComposite.java:368)
+	at org.eclipse.wb.core.controls.palette.PaletteComposite$PaletteFigure.refresh(PaletteComposite.java:284)
+	at org.eclipse.wb.core.controls.palette.PaletteComposite.refreshPalette(PaletteComposite.java:199)
+	at org.eclipse.wb.core.controls.palette.PaletteComposite.setPalette(PaletteComposite.java:192)
+	at org.eclipse.wb.internal.core.editor.palette.DesignerPalette.showPalette(DesignerPalette.java:462)
+	at org.eclipse.wb.internal.core.editor.palette.DesignerPalette.reloadPalette(DesignerPalette.java:182)
+	at org.eclipse.wb.internal.core.editor.palette.DesignerPalette.setInput(DesignerPalette.java:148)
+	at org.eclipse.wb.internal.core.editor.JavaDesignComposite.refresh(JavaDesignComposite.java:147)
+	at org.eclipse.wb.internal.core.editor.DesignPage.internal_refreshGEF(DesignPage.java:604)
+	at org.eclipse.wb.internal.core.editor.DesignPage$8$1.run(DesignPage.java:468)
+	at org.eclipse.swt.widgets.Synchronizer.syncExec(Synchronizer.java:236)
+	at org.eclipse.ui.internal.UISynchronizer.syncExec(UISynchronizer.java:133)
+	at org.eclipse.swt.widgets.Display.syncExec(Display.java:4779)
+	at org.eclipse.wb.internal.core.editor.DesignPage$8.run(DesignPage.java:464)
+	at org.eclipse.jface.operation.ModalContext.runInCurrentThread(ModalContext.java:434)
+	at org.eclipse.jface.operation.ModalContext.run(ModalContext.java:352)
+	at org.eclipse.jface.dialogs.ProgressMonitorDialog.run(ProgressMonitorDialog.java:470)
+	at org.eclipse.wb.internal.core.editor.DesignPage.internal_refreshGEF_withProgress(DesignPage.java:484)
+	at org.eclipse.wb.internal.core.editor.DesignPage.internal_refreshGEF(DesignPage.java:432)
+	at org.eclipse.wb.internal.core.editor.UndoManager.refreshDesignerEditor(UndoManager.java:389)
+	at org.eclipse.wb.internal.core.editor.UndoManager.activate(UndoManager.java:90)
+	at org.eclipse.wb.internal.core.editor.DesignPage.handleActiveState_True(DesignPage.java:275)
+	at org.eclipse.wb.internal.core.editor.DesignPage.handleActiveState(DesignPage.java:252)
+	at org.eclipse.wb.internal.core.editor.multi.DefaultMultiMode.showPage(DefaultMultiMode.java:127)
+	at org.eclipse.wb.internal.core.editor.multi.DefaultMultiMode$1.widgetSelected(DefaultMultiMode.java:63)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:252)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4243)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1063)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1087)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1072)
+	at org.eclipse.swt.widgets.Widget.notifyListeners(Widget.java:775)
+	at org.eclipse.swt.custom.CTabFolder.setSelection(CTabFolder.java:3248)
+	at org.eclipse.swt.custom.CTabFolder.onMouse(CTabFolder.java:1882)
+	at org.eclipse.swt.custom.CTabFolder.lambda$0(CTabFolder.java:331)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4243)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1063)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4060)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3632)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+
+!ENTRY org.eclipse.ui.ide 4 4 2022-11-15 07:15:51.097
+!MESSAGE Not properly disposed SWT resource
+!STACK 0
+java.lang.Error: SWT Resource was not properly disposed
+	at org.eclipse.swt.graphics.Resource.initNonDisposeTracking(Resource.java:172)
+	at org.eclipse.swt.graphics.Resource.<init>(Resource.java:120)
+	at org.eclipse.swt.graphics.Image.<init>(Image.java:605)
+	at org.eclipse.wb.internal.core.model.description.helpers.DescriptionHelper.getIconImage(DescriptionHelper.java:166)
+	at org.eclipse.wb.internal.core.model.description.helpers.ComponentPresentationHelper.getComponentImage(ComponentPresentationHelper.java:166)
+	at org.eclipse.wb.internal.core.model.description.helpers.ComponentPresentationHelper.getFastPresentation(ComponentPresentationHelper.java:139)
+	at org.eclipse.wb.internal.core.model.description.helpers.ComponentPresentationHelper.getPresentation(ComponentPresentationHelper.java:114)
+	at org.eclipse.wb.core.editor.palette.model.entry.ComponentEntryInfo.preparePresentation(ComponentEntryInfo.java:259)
+	at org.eclipse.wb.core.editor.palette.model.entry.ComponentEntryInfo.initialize(ComponentEntryInfo.java:219)
+	at org.eclipse.wb.internal.core.editor.palette.DesignerPalette.getVisualEntry(DesignerPalette.java:267)
+	at org.eclipse.wb.internal.core.editor.palette.DesignerPalette$4.getEntries(DesignerPalette.java:347)
+	at org.eclipse.wb.core.controls.palette.PaletteComposite$CategoryFigure.<init>(PaletteComposite.java:368)
+	at org.eclipse.wb.core.controls.palette.PaletteComposite$PaletteFigure.refresh(PaletteComposite.java:284)
+	at org.eclipse.wb.core.controls.palette.PaletteComposite.refreshPalette(PaletteComposite.java:199)
+	at org.eclipse.wb.core.controls.palette.PaletteComposite.setPalette(PaletteComposite.java:192)
+	at org.eclipse.wb.internal.core.editor.palette.DesignerPalette.showPalette(DesignerPalette.java:462)
+	at org.eclipse.wb.internal.core.editor.palette.DesignerPalette.reloadPalette(DesignerPalette.java:182)
+	at org.eclipse.wb.internal.core.editor.palette.DesignerPalette.setInput(DesignerPalette.java:148)
+	at org.eclipse.wb.internal.core.editor.JavaDesignComposite.refresh(JavaDesignComposite.java:147)
+	at org.eclipse.wb.internal.core.editor.DesignPage.internal_refreshGEF(DesignPage.java:604)
+	at org.eclipse.wb.internal.core.editor.DesignPage$8$1.run(DesignPage.java:468)
+	at org.eclipse.swt.widgets.Synchronizer.syncExec(Synchronizer.java:236)
+	at org.eclipse.ui.internal.UISynchronizer.syncExec(UISynchronizer.java:133)
+	at org.eclipse.swt.widgets.Display.syncExec(Display.java:4779)
+	at org.eclipse.wb.internal.core.editor.DesignPage$8.run(DesignPage.java:464)
+	at org.eclipse.jface.operation.ModalContext.runInCurrentThread(ModalContext.java:434)
+	at org.eclipse.jface.operation.ModalContext.run(ModalContext.java:352)
+	at org.eclipse.jface.dialogs.ProgressMonitorDialog.run(ProgressMonitorDialog.java:470)
+	at org.eclipse.wb.internal.core.editor.DesignPage.internal_refreshGEF_withProgress(DesignPage.java:484)
+	at org.eclipse.wb.internal.core.editor.DesignPage.internal_refreshGEF(DesignPage.java:432)
+	at org.eclipse.wb.internal.core.editor.UndoManager.refreshDesignerEditor(UndoManager.java:389)
+	at org.eclipse.wb.internal.core.editor.UndoManager.activate(UndoManager.java:90)
+	at org.eclipse.wb.internal.core.editor.DesignPage.handleActiveState_True(DesignPage.java:275)
+	at org.eclipse.wb.internal.core.editor.DesignPage.handleActiveState(DesignPage.java:252)
+	at org.eclipse.wb.internal.core.editor.multi.DefaultMultiMode.showPage(DefaultMultiMode.java:127)
+	at org.eclipse.wb.internal.core.editor.multi.DefaultMultiMode$1.widgetSelected(DefaultMultiMode.java:63)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:252)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4243)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1063)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1087)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1072)
+	at org.eclipse.swt.widgets.Widget.notifyListeners(Widget.java:775)
+	at org.eclipse.swt.custom.CTabFolder.setSelection(CTabFolder.java:3248)
+	at org.eclipse.swt.custom.CTabFolder.onMouse(CTabFolder.java:1882)
+	at org.eclipse.swt.custom.CTabFolder.lambda$0(CTabFolder.java:331)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4243)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1063)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4060)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3632)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+
+!ENTRY org.eclipse.wb.core 4 4 2022-11-15 07:15:55.211
+!MESSAGE Designer [1.11.0.202210231159.202211150713]: 205 (Unable to parse source.). 
+		contentPane.setLayout(null); line: 1 The import java.awt.EventQueue is never used
+line: 3 The import javax.swing.JPanel is never used
+line: 4 The import javax.swing.border.EmptyBorder is never used
+line: 5 The serializable class HomePage does not declare a static final serialVersionUID field of type long
+!STACK 0
+org.eclipse.wb.internal.core.utils.exception.DesignerException: 205 (Unable to parse source.). 
+		contentPane.setLayout(null); line: 1 The import java.awt.EventQueue is never used
+line: 3 The import javax.swing.JPanel is never used
+line: 4 The import javax.swing.border.EmptyBorder is never used
+line: 5 The serializable class HomePage does not declare a static final serialVersionUID field of type long
+	at org.eclipse.wb.internal.core.utils.ast.AstParser.parseStatement(AstParser.java:162)
+	at org.eclipse.wb.internal.core.utils.ast.AstEditor.addStatement(AstEditor.java:1628)
+	at org.eclipse.wb.internal.core.model.generation.statement.AbstractInsideStatementGenerator.add(AbstractInsideStatementGenerator.java:82)
+	at org.eclipse.wb.internal.core.model.generation.statement.PureFlatStatementGenerator.add(PureFlatStatementGenerator.java:45)
+	at org.eclipse.wb.internal.core.model.JavaInfoUtils.add(JavaInfoUtils.java:1392)
+	at org.eclipse.wb.internal.core.model.JavaInfoUtils.add(JavaInfoUtils.java:1295)
+	at org.eclipse.wb.internal.swing.model.component.ContainerInfo.setLayout(ContainerInfo.java:430)
+	at org.eclipse.wb.internal.swing.gef.policy.layout.DropLayoutEditPolicy$1.executeEdit(DropLayoutEditPolicy.java:81)
+	at org.eclipse.wb.core.gef.command.EditCommand$1.run(EditCommand.java:53)
+	at org.eclipse.wb.internal.core.utils.execution.ExecutionUtils.run(ExecutionUtils.java:331)
+	at org.eclipse.wb.core.gef.command.EditCommand.execute(EditCommand.java:50)
+	at org.eclipse.wb.internal.gef.core.EditDomain.executeCommand(EditDomain.java:59)
+	at org.eclipse.wb.gef.core.tools.Tool.executeCommand(Tool.java:209)
+	at org.eclipse.wb.gef.core.tools.AbstractCreationTool.handleButtonUp(AbstractCreationTool.java:62)
+	at org.eclipse.wb.gef.core.tools.Tool.mouseUp(Tool.java:395)
+	at org.eclipse.wb.internal.gef.core.EditDomain.mouseUp(EditDomain.java:255)
+	at org.eclipse.wb.internal.gef.graphical.EditEventManager.mouseUp(EditEventManager.java:151)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.wb.internal.draw2d.EventManager$1.invoke(EventManager.java:317)
+	at jdk.proxy10/jdk.proxy10.$Proxy43.mouseUp(Unknown Source)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:224)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4243)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1063)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4060)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3632)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+Caused by: org.eclipse.wb.internal.core.utils.exception.DesignerException: 205 (Unable to parse source.). import java.awt.EventQueue;
+import javax.swing.JFrame;
+import javax.swing.JPanel;
+import javax.swing.border.EmptyBorder;
+class HomePage extends JFrame {
+javax.swing.JPanel contentPane=(javax.swing.JPanel) null;
+public static void main(String[] args) {}
+HomePage(Object __wbp_param) {
+super();
+		contentPane.setLayout(null);}
+} line: 1 The import java.awt.EventQueue is never used
+line: 3 The import javax.swing.JPanel is never used
+line: 4 The import javax.swing.border.EmptyBorder is never used
+line: 5 The serializable class HomePage does not declare a static final serialVersionUID field of type long
+	at org.eclipse.wb.internal.core.utils.ast.AstParser.findNode(AstParser.java:773)
+	at org.eclipse.wb.internal.core.utils.ast.AstParser.parseStatement(AstParser.java:159)
+	... 49 more
+Caused by: java.lang.NoSuchMethodError: 'java.lang.String[] org.eclipse.jdt.core.dom.IMethodBinding.getParameterNames()'
+	at org.eclipse.wb.internal.core.utils.ast.binding.DesignerMethodBinding.<init>(DesignerMethodBinding.java:56)
+	at org.eclipse.wb.internal.core.utils.ast.binding.BindingContext.get(BindingContext.java:87)
+	at org.eclipse.wb.internal.core.utils.ast.binding.DesignerTypeBinding.<init>(DesignerTypeBinding.java:160)
+	at org.eclipse.wb.internal.core.utils.ast.binding.BindingContext.get(BindingContext.java:70)
+	at org.eclipse.wb.internal.core.utils.ast.binding.DesignerTypeBinding.<init>(DesignerTypeBinding.java:146)
+	at org.eclipse.wb.internal.core.utils.ast.binding.BindingContext.get(BindingContext.java:70)
+	at org.eclipse.wb.internal.core.utils.ast.binding.DesignerTypeBinding.<init>(DesignerTypeBinding.java:146)
+	at org.eclipse.wb.internal.core.utils.ast.binding.BindingContext.get(BindingContext.java:70)
+	at org.eclipse.wb.internal.core.utils.ast.binding.DesignerTypeBinding.<init>(DesignerTypeBinding.java:146)
+	at org.eclipse.wb.internal.core.utils.ast.binding.BindingContext.get(BindingContext.java:70)
+	at org.eclipse.wb.internal.core.utils.ast.binding.DesignerTypeBinding.<init>(DesignerTypeBinding.java:146)
+	at org.eclipse.wb.internal.core.utils.ast.binding.BindingContext.get(BindingContext.java:70)
+	at org.eclipse.wb.internal.core.utils.ast.binding.DesignerVariableBinding.<init>(DesignerVariableBinding.java:44)
+	at org.eclipse.wb.internal.core.utils.ast.binding.BindingContext.get(BindingContext.java:94)
+	at org.eclipse.wb.internal.core.utils.ast.AstParser$3.postVisit(AstParser.java:935)
+	at org.eclipse.jdt.core.dom.ASTNode.accept(ASTNode.java:3132)
+	at org.eclipse.jdt.core.dom.ASTNode.acceptChild(ASTNode.java:3177)
+	at org.eclipse.jdt.core.dom.MethodInvocation.accept0(MethodInvocation.java:223)
+	at org.eclipse.jdt.core.dom.ASTNode.accept(ASTNode.java:3129)
+	at org.eclipse.jdt.core.dom.ASTNode.acceptChild(ASTNode.java:3177)
+	at org.eclipse.jdt.core.dom.ExpressionStatement.accept0(ExpressionStatement.java:136)
+	at org.eclipse.jdt.core.dom.ASTNode.accept(ASTNode.java:3129)
+	at org.eclipse.wb.internal.core.utils.ast.AstParser.copyBindings(AstParser.java:925)
+	at org.eclipse.wb.internal.core.utils.ast.AstParser.findNode0(AstParser.java:827)
+	at org.eclipse.wb.internal.core.utils.ast.AstParser.findNode(AstParser.java:770)
+	... 50 more
+
+!ENTRY org.eclipse.ui.ide 4 4 2022-11-15 07:16:58.444
+!MESSAGE Not properly disposed SWT resource
+!STACK 0
+java.lang.Error: SWT Resource was not properly disposed
+	at org.eclipse.swt.graphics.Resource.initNonDisposeTracking(Resource.java:172)
+	at org.eclipse.swt.graphics.Resource.<init>(Resource.java:120)
+	at org.eclipse.swt.graphics.Image.<init>(Image.java:605)
+	at org.eclipse.wb.internal.core.model.description.helpers.DescriptionHelper.getIconImage(DescriptionHelper.java:166)
+	at org.eclipse.wb.internal.core.model.description.helpers.ComponentPresentationHelper.getComponentImage(ComponentPresentationHelper.java:166)
+	at org.eclipse.wb.internal.core.model.description.helpers.ComponentPresentationHelper.getFastPresentation(ComponentPresentationHelper.java:139)
+	at org.eclipse.wb.internal.core.model.description.helpers.ComponentPresentationHelper.getPresentation(ComponentPresentationHelper.java:114)
+	at org.eclipse.wb.core.editor.palette.model.entry.ComponentEntryInfo.preparePresentation(ComponentEntryInfo.java:259)
+	at org.eclipse.wb.core.editor.palette.model.entry.ComponentEntryInfo.initialize(ComponentEntryInfo.java:219)
+	at org.eclipse.wb.internal.core.editor.palette.DesignerPalette.getVisualEntry(DesignerPalette.java:267)
+	at org.eclipse.wb.internal.core.editor.palette.DesignerPalette$4.getEntries(DesignerPalette.java:347)
+	at org.eclipse.wb.core.controls.palette.PaletteComposite$CategoryFigure.<init>(PaletteComposite.java:368)
+	at org.eclipse.wb.core.controls.palette.PaletteComposite$PaletteFigure.refresh(PaletteComposite.java:284)
+	at org.eclipse.wb.core.controls.palette.PaletteComposite.refreshPalette(PaletteComposite.java:199)
+	at org.eclipse.wb.core.controls.palette.PaletteComposite.setPalette(PaletteComposite.java:192)
+	at org.eclipse.wb.internal.core.editor.palette.DesignerPalette.showPalette(DesignerPalette.java:462)
+	at org.eclipse.wb.internal.core.editor.palette.DesignerPalette.reloadPalette(DesignerPalette.java:182)
+	at org.eclipse.wb.internal.core.editor.palette.DesignerPalette.setInput(DesignerPalette.java:148)
+	at org.eclipse.wb.internal.core.editor.JavaDesignComposite.refresh(JavaDesignComposite.java:147)
+	at org.eclipse.wb.internal.core.editor.DesignPage.internal_refreshGEF(DesignPage.java:604)
+	at org.eclipse.wb.internal.core.editor.DesignPage$8$1.run(DesignPage.java:468)
+	at org.eclipse.swt.widgets.Synchronizer.syncExec(Synchronizer.java:236)
+	at org.eclipse.ui.internal.UISynchronizer.syncExec(UISynchronizer.java:133)
+	at org.eclipse.swt.widgets.Display.syncExec(Display.java:4779)
+	at org.eclipse.wb.internal.core.editor.DesignPage$8.run(DesignPage.java:464)
+	at org.eclipse.jface.operation.ModalContext.runInCurrentThread(ModalContext.java:434)
+	at org.eclipse.jface.operation.ModalContext.run(ModalContext.java:352)
+	at org.eclipse.jface.dialogs.ProgressMonitorDialog.run(ProgressMonitorDialog.java:470)
+	at org.eclipse.wb.internal.core.editor.DesignPage.internal_refreshGEF_withProgress(DesignPage.java:484)
+	at org.eclipse.wb.internal.core.editor.DesignPage.internal_refreshGEF(DesignPage.java:432)
+	at org.eclipse.wb.internal.core.editor.UndoManager.refreshDesignerEditor(UndoManager.java:389)
+	at org.eclipse.wb.internal.core.editor.UndoManager.activate(UndoManager.java:90)
+	at org.eclipse.wb.internal.core.editor.DesignPage.handleActiveState_True(DesignPage.java:275)
+	at org.eclipse.wb.internal.core.editor.DesignPage.handleActiveState(DesignPage.java:252)
+	at org.eclipse.wb.internal.core.editor.multi.DefaultMultiMode.showPage(DefaultMultiMode.java:127)
+	at org.eclipse.wb.internal.core.editor.multi.DefaultMultiMode$1.widgetSelected(DefaultMultiMode.java:63)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:252)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4243)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1063)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1087)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1072)
+	at org.eclipse.swt.widgets.Widget.notifyListeners(Widget.java:775)
+	at org.eclipse.swt.custom.CTabFolder.setSelection(CTabFolder.java:3248)
+	at org.eclipse.swt.custom.CTabFolder.onMouse(CTabFolder.java:1882)
+	at org.eclipse.swt.custom.CTabFolder.lambda$0(CTabFolder.java:331)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4243)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1063)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4060)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3632)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+
+!ENTRY org.eclipse.ui.ide 4 4 2022-11-15 07:16:58.446
+!MESSAGE Not properly disposed SWT resource
+!STACK 0
+java.lang.Error: SWT Resource was not properly disposed
+	at org.eclipse.swt.graphics.Resource.initNonDisposeTracking(Resource.java:172)
+	at org.eclipse.swt.graphics.Resource.<init>(Resource.java:120)
+	at org.eclipse.swt.graphics.Image.<init>(Image.java:605)
+	at org.eclipse.wb.internal.core.model.description.helpers.DescriptionHelper.getIconImage(DescriptionHelper.java:166)
+	at org.eclipse.wb.internal.core.model.description.helpers.ComponentPresentationHelper.getComponentImage(ComponentPresentationHelper.java:166)
+	at org.eclipse.wb.internal.core.model.description.helpers.ComponentPresentationHelper.getFastPresentation(ComponentPresentationHelper.java:139)
+	at org.eclipse.wb.internal.core.model.description.helpers.ComponentPresentationHelper.getPresentation(ComponentPresentationHelper.java:114)
+	at org.eclipse.wb.core.editor.palette.model.entry.ComponentEntryInfo.preparePresentation(ComponentEntryInfo.java:259)
+	at org.eclipse.wb.core.editor.palette.model.entry.ComponentEntryInfo.initialize(ComponentEntryInfo.java:219)
+	at org.eclipse.wb.internal.core.editor.palette.DesignerPalette.getVisualEntry(DesignerPalette.java:267)
+	at org.eclipse.wb.internal.core.editor.palette.DesignerPalette$4.getEntries(DesignerPalette.java:347)
+	at org.eclipse.wb.core.controls.palette.PaletteComposite$CategoryFigure.<init>(PaletteComposite.java:368)
+	at org.eclipse.wb.core.controls.palette.PaletteComposite$PaletteFigure.refresh(PaletteComposite.java:284)
+	at org.eclipse.wb.core.controls.palette.PaletteComposite.refreshPalette(PaletteComposite.java:199)
+	at org.eclipse.wb.core.controls.palette.PaletteComposite.setPalette(PaletteComposite.java:192)
+	at org.eclipse.wb.internal.core.editor.palette.DesignerPalette.showPalette(DesignerPalette.java:462)
+	at org.eclipse.wb.internal.core.editor.palette.DesignerPalette.reloadPalette(DesignerPalette.java:182)
+	at org.eclipse.wb.internal.core.editor.palette.DesignerPalette.setInput(DesignerPalette.java:148)
+	at org.eclipse.wb.internal.core.editor.JavaDesignComposite.refresh(JavaDesignComposite.java:147)
+	at org.eclipse.wb.internal.core.editor.DesignPage.internal_refreshGEF(DesignPage.java:604)
+	at org.eclipse.wb.internal.core.editor.DesignPage$8$1.run(DesignPage.java:468)
+	at org.eclipse.swt.widgets.Synchronizer.syncExec(Synchronizer.java:236)
+	at org.eclipse.ui.internal.UISynchronizer.syncExec(UISynchronizer.java:133)
+	at org.eclipse.swt.widgets.Display.syncExec(Display.java:4779)
+	at org.eclipse.wb.internal.core.editor.DesignPage$8.run(DesignPage.java:464)
+	at org.eclipse.jface.operation.ModalContext.runInCurrentThread(ModalContext.java:434)
+	at org.eclipse.jface.operation.ModalContext.run(ModalContext.java:352)
+	at org.eclipse.jface.dialogs.ProgressMonitorDialog.run(ProgressMonitorDialog.java:470)
+	at org.eclipse.wb.internal.core.editor.DesignPage.internal_refreshGEF_withProgress(DesignPage.java:484)
+	at org.eclipse.wb.internal.core.editor.DesignPage.internal_refreshGEF(DesignPage.java:432)
+	at org.eclipse.wb.internal.core.editor.UndoManager.refreshDesignerEditor(UndoManager.java:389)
+	at org.eclipse.wb.internal.core.editor.UndoManager.activate(UndoManager.java:90)
+	at org.eclipse.wb.internal.core.editor.DesignPage.handleActiveState_True(DesignPage.java:275)
+	at org.eclipse.wb.internal.core.editor.DesignPage.handleActiveState(DesignPage.java:252)
+	at org.eclipse.wb.internal.core.editor.multi.DefaultMultiMode.showPage(DefaultMultiMode.java:127)
+	at org.eclipse.wb.internal.core.editor.multi.DefaultMultiMode$1.widgetSelected(DefaultMultiMode.java:63)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:252)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4243)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1063)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1087)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1072)
+	at org.eclipse.swt.widgets.Widget.notifyListeners(Widget.java:775)
+	at org.eclipse.swt.custom.CTabFolder.setSelection(CTabFolder.java:3248)
+	at org.eclipse.swt.custom.CTabFolder.onMouse(CTabFolder.java:1882)
+	at org.eclipse.swt.custom.CTabFolder.lambda$0(CTabFolder.java:331)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4243)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1063)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4060)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3632)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+
+!ENTRY org.eclipse.wb.core 4 4 2022-11-15 07:17:18.173
+!MESSAGE Designer [1.11.0.202210231159.202211150713]: 205 (Unable to parse source.). 
+		contentPane.setLayout(null); line: 1 The import java.awt.EventQueue is never used
+line: 3 The import javax.swing.JPanel is never used
+line: 4 The import javax.swing.border.EmptyBorder is never used
+line: 5 The serializable class HomePage does not declare a static final serialVersionUID field of type long
+!STACK 0
+org.eclipse.wb.internal.core.utils.exception.DesignerException: 205 (Unable to parse source.). 
+		contentPane.setLayout(null); line: 1 The import java.awt.EventQueue is never used
+line: 3 The import javax.swing.JPanel is never used
+line: 4 The import javax.swing.border.EmptyBorder is never used
+line: 5 The serializable class HomePage does not declare a static final serialVersionUID field of type long
+	at org.eclipse.wb.internal.core.utils.ast.AstParser.parseStatement(AstParser.java:162)
+	at org.eclipse.wb.internal.core.utils.ast.AstEditor.addStatement(AstEditor.java:1628)
+	at org.eclipse.wb.internal.core.model.generation.statement.AbstractInsideStatementGenerator.add(AbstractInsideStatementGenerator.java:82)
+	at org.eclipse.wb.internal.core.model.generation.statement.PureFlatStatementGenerator.add(PureFlatStatementGenerator.java:45)
+	at org.eclipse.wb.internal.core.model.JavaInfoUtils.add(JavaInfoUtils.java:1392)
+	at org.eclipse.wb.internal.core.model.JavaInfoUtils.add(JavaInfoUtils.java:1295)
+	at org.eclipse.wb.internal.swing.model.component.ContainerInfo.setLayout(ContainerInfo.java:430)
+	at org.eclipse.wb.internal.swing.gef.policy.layout.DropLayoutEditPolicy$1.executeEdit(DropLayoutEditPolicy.java:81)
+	at org.eclipse.wb.core.gef.command.EditCommand$1.run(EditCommand.java:53)
+	at org.eclipse.wb.internal.core.utils.execution.ExecutionUtils.run(ExecutionUtils.java:331)
+	at org.eclipse.wb.core.gef.command.EditCommand.execute(EditCommand.java:50)
+	at org.eclipse.wb.internal.gef.core.EditDomain.executeCommand(EditDomain.java:59)
+	at org.eclipse.wb.gef.core.tools.Tool.executeCommand(Tool.java:209)
+	at org.eclipse.wb.gef.core.tools.AbstractCreationTool.handleButtonUp(AbstractCreationTool.java:62)
+	at org.eclipse.wb.gef.core.tools.Tool.mouseUp(Tool.java:395)
+	at org.eclipse.wb.internal.gef.core.EditDomain.mouseUp(EditDomain.java:255)
+	at org.eclipse.wb.internal.gef.graphical.EditEventManager.mouseUp(EditEventManager.java:151)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.wb.internal.draw2d.EventManager$1.invoke(EventManager.java:317)
+	at jdk.proxy10/jdk.proxy10.$Proxy43.mouseUp(Unknown Source)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:224)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4243)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1063)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4060)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3632)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+Caused by: org.eclipse.wb.internal.core.utils.exception.DesignerException: 205 (Unable to parse source.). import java.awt.EventQueue;
+import javax.swing.JFrame;
+import javax.swing.JPanel;
+import javax.swing.border.EmptyBorder;
+class HomePage extends JFrame {
+javax.swing.JPanel contentPane=(javax.swing.JPanel) null;
+public static void main(String[] args) {}
+HomePage(Object __wbp_param) {
+super();
+		contentPane.setLayout(null);}
+} line: 1 The import java.awt.EventQueue is never used
+line: 3 The import javax.swing.JPanel is never used
+line: 4 The import javax.swing.border.EmptyBorder is never used
+line: 5 The serializable class HomePage does not declare a static final serialVersionUID field of type long
+	at org.eclipse.wb.internal.core.utils.ast.AstParser.findNode(AstParser.java:773)
+	at org.eclipse.wb.internal.core.utils.ast.AstParser.parseStatement(AstParser.java:159)
+	... 49 more
+Caused by: java.lang.NoSuchMethodError: 'java.lang.String[] org.eclipse.jdt.core.dom.IMethodBinding.getParameterNames()'
+	at org.eclipse.wb.internal.core.utils.ast.binding.DesignerMethodBinding.<init>(DesignerMethodBinding.java:56)
+	at org.eclipse.wb.internal.core.utils.ast.binding.BindingContext.get(BindingContext.java:87)
+	at org.eclipse.wb.internal.core.utils.ast.binding.DesignerTypeBinding.<init>(DesignerTypeBinding.java:160)
+	at org.eclipse.wb.internal.core.utils.ast.binding.BindingContext.get(BindingContext.java:70)
+	at org.eclipse.wb.internal.core.utils.ast.binding.DesignerTypeBinding.<init>(DesignerTypeBinding.java:146)
+	at org.eclipse.wb.internal.core.utils.ast.binding.BindingContext.get(BindingContext.java:70)
+	at org.eclipse.wb.internal.core.utils.ast.binding.DesignerTypeBinding.<init>(DesignerTypeBinding.java:146)
+	at org.eclipse.wb.internal.core.utils.ast.binding.BindingContext.get(BindingContext.java:70)
+	at org.eclipse.wb.internal.core.utils.ast.binding.DesignerTypeBinding.<init>(DesignerTypeBinding.java:146)
+	at org.eclipse.wb.internal.core.utils.ast.binding.BindingContext.get(BindingContext.java:70)
+	at org.eclipse.wb.internal.core.utils.ast.binding.DesignerTypeBinding.<init>(DesignerTypeBinding.java:146)
+	at org.eclipse.wb.internal.core.utils.ast.binding.BindingContext.get(BindingContext.java:70)
+	at org.eclipse.wb.internal.core.utils.ast.binding.DesignerVariableBinding.<init>(DesignerVariableBinding.java:44)
+	at org.eclipse.wb.internal.core.utils.ast.binding.BindingContext.get(BindingContext.java:94)
+	at org.eclipse.wb.internal.core.utils.ast.AstParser$3.postVisit(AstParser.java:935)
+	at org.eclipse.jdt.core.dom.ASTNode.accept(ASTNode.java:3132)
+	at org.eclipse.jdt.core.dom.ASTNode.acceptChild(ASTNode.java:3177)
+	at org.eclipse.jdt.core.dom.MethodInvocation.accept0(MethodInvocation.java:223)
+	at org.eclipse.jdt.core.dom.ASTNode.accept(ASTNode.java:3129)
+	at org.eclipse.jdt.core.dom.ASTNode.acceptChild(ASTNode.java:3177)
+	at org.eclipse.jdt.core.dom.ExpressionStatement.accept0(ExpressionStatement.java:136)
+	at org.eclipse.jdt.core.dom.ASTNode.accept(ASTNode.java:3129)
+	at org.eclipse.wb.internal.core.utils.ast.AstParser.copyBindings(AstParser.java:925)
+	at org.eclipse.wb.internal.core.utils.ast.AstParser.findNode0(AstParser.java:827)
+	at org.eclipse.wb.internal.core.utils.ast.AstParser.findNode(AstParser.java:770)
+	... 50 more
+
+!ENTRY org.eclipse.wb.core 4 4 2022-11-15 07:18:17.396
+!MESSAGE Designer [1.11.0.202210231159.202211150713]: 205 (Unable to parse source.). 
+		contentPane.setLayout(null); line: 1 The import java.awt.EventQueue is never used
+line: 3 The import javax.swing.JPanel is never used
+line: 4 The import javax.swing.border.EmptyBorder is never used
+line: 5 The serializable class HomePage does not declare a static final serialVersionUID field of type long
+!STACK 0
+org.eclipse.wb.internal.core.utils.exception.DesignerException: 205 (Unable to parse source.). 
+		contentPane.setLayout(null); line: 1 The import java.awt.EventQueue is never used
+line: 3 The import javax.swing.JPanel is never used
+line: 4 The import javax.swing.border.EmptyBorder is never used
+line: 5 The serializable class HomePage does not declare a static final serialVersionUID field of type long
+	at org.eclipse.wb.internal.core.utils.ast.AstParser.parseStatement(AstParser.java:162)
+	at org.eclipse.wb.internal.core.utils.ast.AstEditor.addStatement(AstEditor.java:1628)
+	at org.eclipse.wb.internal.core.model.generation.statement.AbstractInsideStatementGenerator.add(AbstractInsideStatementGenerator.java:82)
+	at org.eclipse.wb.internal.core.model.generation.statement.PureFlatStatementGenerator.add(PureFlatStatementGenerator.java:45)
+	at org.eclipse.wb.internal.core.model.JavaInfoUtils.add(JavaInfoUtils.java:1392)
+	at org.eclipse.wb.internal.core.model.JavaInfoUtils.add(JavaInfoUtils.java:1295)
+	at org.eclipse.wb.internal.swing.model.component.ContainerInfo.setLayout(ContainerInfo.java:430)
+	at org.eclipse.wb.internal.swing.gef.policy.layout.DropLayoutEditPolicy$1.executeEdit(DropLayoutEditPolicy.java:81)
+	at org.eclipse.wb.core.gef.command.EditCommand$1.run(EditCommand.java:53)
+	at org.eclipse.wb.internal.core.utils.execution.ExecutionUtils.run(ExecutionUtils.java:331)
+	at org.eclipse.wb.core.gef.command.EditCommand.execute(EditCommand.java:50)
+	at org.eclipse.wb.internal.gef.core.EditDomain.executeCommand(EditDomain.java:59)
+	at org.eclipse.wb.gef.core.tools.Tool.executeCommand(Tool.java:209)
+	at org.eclipse.wb.gef.core.tools.AbstractCreationTool.handleButtonUp(AbstractCreationTool.java:62)
+	at org.eclipse.wb.gef.core.tools.Tool.mouseUp(Tool.java:395)
+	at org.eclipse.wb.internal.gef.core.EditDomain.mouseUp(EditDomain.java:255)
+	at org.eclipse.wb.internal.gef.graphical.EditEventManager.mouseUp(EditEventManager.java:151)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.wb.internal.draw2d.EventManager$1.invoke(EventManager.java:317)
+	at jdk.proxy10/jdk.proxy10.$Proxy43.mouseUp(Unknown Source)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:224)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4243)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1063)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4060)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3632)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+Caused by: org.eclipse.wb.internal.core.utils.exception.DesignerException: 205 (Unable to parse source.). import java.awt.EventQueue;
+import javax.swing.JFrame;
+import javax.swing.JPanel;
+import javax.swing.border.EmptyBorder;
+class HomePage extends JFrame {
+javax.swing.JPanel contentPane=(javax.swing.JPanel) null;
+public static void main(String[] args) {}
+HomePage(Object __wbp_param) {
+super();
+		contentPane.setLayout(null);}
+} line: 1 The import java.awt.EventQueue is never used
+line: 3 The import javax.swing.JPanel is never used
+line: 4 The import javax.swing.border.EmptyBorder is never used
+line: 5 The serializable class HomePage does not declare a static final serialVersionUID field of type long
+	at org.eclipse.wb.internal.core.utils.ast.AstParser.findNode(AstParser.java:773)
+	at org.eclipse.wb.internal.core.utils.ast.AstParser.parseStatement(AstParser.java:159)
+	... 49 more
+Caused by: java.lang.NoSuchMethodError: 'java.lang.String[] org.eclipse.jdt.core.dom.IMethodBinding.getParameterNames()'
+	at org.eclipse.wb.internal.core.utils.ast.binding.DesignerMethodBinding.<init>(DesignerMethodBinding.java:56)
+	at org.eclipse.wb.internal.core.utils.ast.binding.BindingContext.get(BindingContext.java:87)
+	at org.eclipse.wb.internal.core.utils.ast.binding.DesignerTypeBinding.<init>(DesignerTypeBinding.java:160)
+	at org.eclipse.wb.internal.core.utils.ast.binding.BindingContext.get(BindingContext.java:70)
+	at org.eclipse.wb.internal.core.utils.ast.binding.DesignerTypeBinding.<init>(DesignerTypeBinding.java:146)
+	at org.eclipse.wb.internal.core.utils.ast.binding.BindingContext.get(BindingContext.java:70)
+	at org.eclipse.wb.internal.core.utils.ast.binding.DesignerTypeBinding.<init>(DesignerTypeBinding.java:146)
+	at org.eclipse.wb.internal.core.utils.ast.binding.BindingContext.get(BindingContext.java:70)
+	at org.eclipse.wb.internal.core.utils.ast.binding.DesignerTypeBinding.<init>(DesignerTypeBinding.java:146)
+	at org.eclipse.wb.internal.core.utils.ast.binding.BindingContext.get(BindingContext.java:70)
+	at org.eclipse.wb.internal.core.utils.ast.binding.DesignerTypeBinding.<init>(DesignerTypeBinding.java:146)
+	at org.eclipse.wb.internal.core.utils.ast.binding.BindingContext.get(BindingContext.java:70)
+	at org.eclipse.wb.internal.core.utils.ast.binding.DesignerVariableBinding.<init>(DesignerVariableBinding.java:44)
+	at org.eclipse.wb.internal.core.utils.ast.binding.BindingContext.get(BindingContext.java:94)
+	at org.eclipse.wb.internal.core.utils.ast.AstParser$3.postVisit(AstParser.java:935)
+	at org.eclipse.jdt.core.dom.ASTNode.accept(ASTNode.java:3132)
+	at org.eclipse.jdt.core.dom.ASTNode.acceptChild(ASTNode.java:3177)
+	at org.eclipse.jdt.core.dom.MethodInvocation.accept0(MethodInvocation.java:223)
+	at org.eclipse.jdt.core.dom.ASTNode.accept(ASTNode.java:3129)
+	at org.eclipse.jdt.core.dom.ASTNode.acceptChild(ASTNode.java:3177)
+	at org.eclipse.jdt.core.dom.ExpressionStatement.accept0(ExpressionStatement.java:136)
+	at org.eclipse.jdt.core.dom.ASTNode.accept(ASTNode.java:3129)
+	at org.eclipse.wb.internal.core.utils.ast.AstParser.copyBindings(AstParser.java:925)
+	at org.eclipse.wb.internal.core.utils.ast.AstParser.findNode0(AstParser.java:827)
+	at org.eclipse.wb.internal.core.utils.ast.AstParser.findNode(AstParser.java:770)
+	... 50 more
+
+!ENTRY org.eclipse.wb.core 4 4 2022-11-15 07:19:39.514
+!MESSAGE Designer [1.11.0.202210231159.202211150713]: 205 (Unable to parse source.). 
+		contentPane.setLayout(null); line: 1 The import java.awt.EventQueue is never used
+line: 3 The import javax.swing.JPanel is never used
+line: 4 The import javax.swing.border.EmptyBorder is never used
+line: 5 The serializable class HomePage does not declare a static final serialVersionUID field of type long
+!STACK 0
+org.eclipse.wb.internal.core.utils.exception.DesignerException: 205 (Unable to parse source.). 
+		contentPane.setLayout(null); line: 1 The import java.awt.EventQueue is never used
+line: 3 The import javax.swing.JPanel is never used
+line: 4 The import javax.swing.border.EmptyBorder is never used
+line: 5 The serializable class HomePage does not declare a static final serialVersionUID field of type long
+	at org.eclipse.wb.internal.core.utils.ast.AstParser.parseStatement(AstParser.java:162)
+	at org.eclipse.wb.internal.core.utils.ast.AstEditor.addStatement(AstEditor.java:1628)
+	at org.eclipse.wb.internal.core.model.generation.statement.AbstractInsideStatementGenerator.add(AbstractInsideStatementGenerator.java:82)
+	at org.eclipse.wb.internal.core.model.generation.statement.PureFlatStatementGenerator.add(PureFlatStatementGenerator.java:45)
+	at org.eclipse.wb.internal.core.model.JavaInfoUtils.add(JavaInfoUtils.java:1392)
+	at org.eclipse.wb.internal.core.model.JavaInfoUtils.add(JavaInfoUtils.java:1295)
+	at org.eclipse.wb.internal.swing.model.component.ContainerInfo.setLayout(ContainerInfo.java:430)
+	at org.eclipse.wb.internal.swing.gef.policy.layout.DropLayoutEditPolicy$1.executeEdit(DropLayoutEditPolicy.java:81)
+	at org.eclipse.wb.core.gef.command.EditCommand$1.run(EditCommand.java:53)
+	at org.eclipse.wb.internal.core.utils.execution.ExecutionUtils.run(ExecutionUtils.java:331)
+	at org.eclipse.wb.core.gef.command.EditCommand.execute(EditCommand.java:50)
+	at org.eclipse.wb.internal.gef.core.EditDomain.executeCommand(EditDomain.java:59)
+	at org.eclipse.wb.gef.core.tools.Tool.executeCommand(Tool.java:209)
+	at org.eclipse.wb.gef.core.tools.AbstractCreationTool.handleButtonUp(AbstractCreationTool.java:62)
+	at org.eclipse.wb.gef.core.tools.Tool.mouseUp(Tool.java:395)
+	at org.eclipse.wb.internal.gef.core.EditDomain.mouseUp(EditDomain.java:255)
+	at org.eclipse.wb.internal.gef.graphical.EditEventManager.mouseUp(EditEventManager.java:151)
+	at jdk.internal.reflect.GeneratedMethodAccessor217.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.wb.internal.draw2d.EventManager$1.invoke(EventManager.java:317)
+	at jdk.proxy10/jdk.proxy10.$Proxy43.mouseUp(Unknown Source)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:224)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4243)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1063)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4060)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3632)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+Caused by: org.eclipse.wb.internal.core.utils.exception.DesignerException: 205 (Unable to parse source.). import java.awt.EventQueue;
+import javax.swing.JFrame;
+import javax.swing.JPanel;
+import javax.swing.border.EmptyBorder;
+class HomePage extends JFrame {
+javax.swing.JPanel contentPane=(javax.swing.JPanel) null;
+public static void main(String[] args) {}
+HomePage(Object __wbp_param) {
+super();
+		contentPane.setLayout(null);}
+} line: 1 The import java.awt.EventQueue is never used
+line: 3 The import javax.swing.JPanel is never used
+line: 4 The import javax.swing.border.EmptyBorder is never used
+line: 5 The serializable class HomePage does not declare a static final serialVersionUID field of type long
+	at org.eclipse.wb.internal.core.utils.ast.AstParser.findNode(AstParser.java:773)
+	at org.eclipse.wb.internal.core.utils.ast.AstParser.parseStatement(AstParser.java:159)
+	... 48 more
+Caused by: java.lang.NoSuchMethodError: 'java.lang.String[] org.eclipse.jdt.core.dom.IMethodBinding.getParameterNames()'
+	at org.eclipse.wb.internal.core.utils.ast.binding.DesignerMethodBinding.<init>(DesignerMethodBinding.java:56)
+	at org.eclipse.wb.internal.core.utils.ast.binding.BindingContext.get(BindingContext.java:87)
+	at org.eclipse.wb.internal.core.utils.ast.binding.DesignerTypeBinding.<init>(DesignerTypeBinding.java:160)
+	at org.eclipse.wb.internal.core.utils.ast.binding.BindingContext.get(BindingContext.java:70)
+	at org.eclipse.wb.internal.core.utils.ast.binding.DesignerTypeBinding.<init>(DesignerTypeBinding.java:146)
+	at org.eclipse.wb.internal.core.utils.ast.binding.BindingContext.get(BindingContext.java:70)
+	at org.eclipse.wb.internal.core.utils.ast.binding.DesignerTypeBinding.<init>(DesignerTypeBinding.java:146)
+	at org.eclipse.wb.internal.core.utils.ast.binding.BindingContext.get(BindingContext.java:70)
+	at org.eclipse.wb.internal.core.utils.ast.binding.DesignerTypeBinding.<init>(DesignerTypeBinding.java:146)
+	at org.eclipse.wb.internal.core.utils.ast.binding.BindingContext.get(BindingContext.java:70)
+	at org.eclipse.wb.internal.core.utils.ast.binding.DesignerTypeBinding.<init>(DesignerTypeBinding.java:146)
+	at org.eclipse.wb.internal.core.utils.ast.binding.BindingContext.get(BindingContext.java:70)
+	at org.eclipse.wb.internal.core.utils.ast.binding.DesignerVariableBinding.<init>(DesignerVariableBinding.java:44)
+	at org.eclipse.wb.internal.core.utils.ast.binding.BindingContext.get(BindingContext.java:94)
+	at org.eclipse.wb.internal.core.utils.ast.AstParser$3.postVisit(AstParser.java:935)
+	at org.eclipse.jdt.core.dom.ASTNode.accept(ASTNode.java:3132)
+	at org.eclipse.jdt.core.dom.ASTNode.acceptChild(ASTNode.java:3177)
+	at org.eclipse.jdt.core.dom.MethodInvocation.accept0(MethodInvocation.java:223)
+	at org.eclipse.jdt.core.dom.ASTNode.accept(ASTNode.java:3129)
+	at org.eclipse.jdt.core.dom.ASTNode.acceptChild(ASTNode.java:3177)
+	at org.eclipse.jdt.core.dom.ExpressionStatement.accept0(ExpressionStatement.java:136)
+	at org.eclipse.jdt.core.dom.ASTNode.accept(ASTNode.java:3129)
+	at org.eclipse.wb.internal.core.utils.ast.AstParser.copyBindings(AstParser.java:925)
+	at org.eclipse.wb.internal.core.utils.ast.AstParser.findNode0(AstParser.java:827)
+	at org.eclipse.wb.internal.core.utils.ast.AstParser.findNode(AstParser.java:770)
+	... 49 more
+
+!ENTRY org.eclipse.ui.ide 4 4 2022-11-15 07:20:22.118
+!MESSAGE Not properly disposed SWT resource
+!STACK 0
+java.lang.Error: SWT Resource was not properly disposed
+	at org.eclipse.swt.graphics.Resource.initNonDisposeTracking(Resource.java:172)
+	at org.eclipse.swt.graphics.Resource.<init>(Resource.java:120)
+	at org.eclipse.swt.graphics.Image.<init>(Image.java:205)
+	at org.eclipse.wb.internal.core.utils.exception.DesignerExceptionUtils.makeScreenshot(DesignerExceptionUtils.java:541)
+	at org.eclipse.wb.internal.core.editor.DesignPage.handleDesignException(DesignPage.java:657)
+	at org.eclipse.wb.internal.core.editor.DesignPage$9.handleException(DesignPage.java:583)
+	at org.eclipse.wb.internal.core.utils.execution.ExecutionUtils.run(ExecutionUtils.java:337)
+	at org.eclipse.wb.core.gef.command.EditCommand.execute(EditCommand.java:50)
+	at org.eclipse.wb.internal.gef.core.EditDomain.executeCommand(EditDomain.java:59)
+	at org.eclipse.wb.gef.core.tools.Tool.executeCommand(Tool.java:209)
+	at org.eclipse.wb.gef.core.tools.AbstractCreationTool.handleButtonUp(AbstractCreationTool.java:62)
+	at org.eclipse.wb.gef.core.tools.Tool.mouseUp(Tool.java:395)
+	at org.eclipse.wb.internal.gef.core.EditDomain.mouseUp(EditDomain.java:255)
+	at org.eclipse.wb.internal.gef.graphical.EditEventManager.mouseUp(EditEventManager.java:151)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.wb.internal.draw2d.EventManager$1.invoke(EventManager.java:317)
+	at jdk.proxy10/jdk.proxy10.$Proxy43.mouseUp(Unknown Source)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:224)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4243)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1063)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4060)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3632)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+
+!ENTRY org.eclipse.ui.ide 4 4 2022-11-15 07:20:22.120
+!MESSAGE Not properly disposed SWT resource
+!STACK 0
+java.lang.Error: SWT Resource was not properly disposed
+	at org.eclipse.swt.graphics.Resource.initNonDisposeTracking(Resource.java:172)
+	at org.eclipse.swt.graphics.Resource.<init>(Resource.java:120)
+	at org.eclipse.swt.graphics.Image.<init>(Image.java:605)
+	at org.eclipse.wb.internal.core.model.description.helpers.DescriptionHelper.getIconImage(DescriptionHelper.java:166)
+	at org.eclipse.wb.internal.core.model.description.helpers.ComponentPresentationHelper.getComponentImage(ComponentPresentationHelper.java:166)
+	at org.eclipse.wb.internal.core.model.description.helpers.ComponentPresentationHelper.getFastPresentation(ComponentPresentationHelper.java:139)
+	at org.eclipse.wb.internal.core.model.description.helpers.ComponentPresentationHelper.getPresentation(ComponentPresentationHelper.java:114)
+	at org.eclipse.wb.core.editor.palette.model.entry.ComponentEntryInfo.preparePresentation(ComponentEntryInfo.java:259)
+	at org.eclipse.wb.core.editor.palette.model.entry.ComponentEntryInfo.initialize(ComponentEntryInfo.java:219)
+	at org.eclipse.wb.internal.core.editor.palette.DesignerPalette.getVisualEntry(DesignerPalette.java:267)
+	at org.eclipse.wb.internal.core.editor.palette.DesignerPalette$4.getEntries(DesignerPalette.java:347)
+	at org.eclipse.wb.core.controls.palette.PaletteComposite$CategoryFigure.<init>(PaletteComposite.java:368)
+	at org.eclipse.wb.core.controls.palette.PaletteComposite$PaletteFigure.refresh(PaletteComposite.java:284)
+	at org.eclipse.wb.core.controls.palette.PaletteComposite.refreshPalette(PaletteComposite.java:199)
+	at org.eclipse.wb.core.controls.palette.PaletteComposite.setPalette(PaletteComposite.java:192)
+	at org.eclipse.wb.internal.core.editor.palette.DesignerPalette.showPalette(DesignerPalette.java:462)
+	at org.eclipse.wb.internal.core.editor.palette.DesignerPalette.reloadPalette(DesignerPalette.java:182)
+	at org.eclipse.wb.internal.core.editor.palette.DesignerPalette.setInput(DesignerPalette.java:148)
+	at org.eclipse.wb.internal.core.editor.JavaDesignComposite.refresh(JavaDesignComposite.java:147)
+	at org.eclipse.wb.internal.core.editor.DesignPage.internal_refreshGEF(DesignPage.java:604)
+	at org.eclipse.wb.internal.core.editor.DesignPage$8$1.run(DesignPage.java:468)
+	at org.eclipse.swt.widgets.Synchronizer.syncExec(Synchronizer.java:236)
+	at org.eclipse.ui.internal.UISynchronizer.syncExec(UISynchronizer.java:133)
+	at org.eclipse.swt.widgets.Display.syncExec(Display.java:4779)
+	at org.eclipse.wb.internal.core.editor.DesignPage$8.run(DesignPage.java:464)
+	at org.eclipse.jface.operation.ModalContext.runInCurrentThread(ModalContext.java:434)
+	at org.eclipse.jface.operation.ModalContext.run(ModalContext.java:352)
+	at org.eclipse.jface.dialogs.ProgressMonitorDialog.run(ProgressMonitorDialog.java:470)
+	at org.eclipse.wb.internal.core.editor.DesignPage.internal_refreshGEF_withProgress(DesignPage.java:484)
+	at org.eclipse.wb.internal.core.editor.DesignPage.internal_refreshGEF(DesignPage.java:432)
+	at org.eclipse.wb.internal.core.editor.UndoManager.refreshDesignerEditor(UndoManager.java:389)
+	at org.eclipse.wb.internal.core.editor.UndoManager.activate(UndoManager.java:90)
+	at org.eclipse.wb.internal.core.editor.DesignPage.handleActiveState_True(DesignPage.java:275)
+	at org.eclipse.wb.internal.core.editor.DesignPage.handleActiveState(DesignPage.java:252)
+	at org.eclipse.wb.internal.core.editor.multi.DefaultMultiMode.showPage(DefaultMultiMode.java:127)
+	at org.eclipse.wb.internal.core.editor.multi.DefaultMultiMode$1.widgetSelected(DefaultMultiMode.java:63)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:252)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4243)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1063)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1087)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1072)
+	at org.eclipse.swt.widgets.Widget.notifyListeners(Widget.java:775)
+	at org.eclipse.swt.custom.CTabFolder.setSelection(CTabFolder.java:3248)
+	at org.eclipse.swt.custom.CTabFolder.onMouse(CTabFolder.java:1882)
+	at org.eclipse.swt.custom.CTabFolder.lambda$0(CTabFolder.java:331)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4243)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1063)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4060)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3632)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+
+!ENTRY org.eclipse.ui.ide 4 4 2022-11-15 07:20:22.122
+!MESSAGE Not properly disposed SWT resource
+!STACK 0
+java.lang.Error: SWT Resource was not properly disposed
+	at org.eclipse.swt.graphics.Resource.initNonDisposeTracking(Resource.java:172)
+	at org.eclipse.swt.graphics.Resource.<init>(Resource.java:120)
+	at org.eclipse.swt.graphics.Image.<init>(Image.java:605)
+	at org.eclipse.wb.internal.core.model.description.helpers.DescriptionHelper.getIconImage(DescriptionHelper.java:166)
+	at org.eclipse.wb.internal.core.model.description.helpers.ComponentPresentationHelper.getComponentImage(ComponentPresentationHelper.java:166)
+	at org.eclipse.wb.internal.core.model.description.helpers.ComponentPresentationHelper.getFastPresentation(ComponentPresentationHelper.java:139)
+	at org.eclipse.wb.internal.core.model.description.helpers.ComponentPresentationHelper.getPresentation(ComponentPresentationHelper.java:114)
+	at org.eclipse.wb.core.editor.palette.model.entry.ComponentEntryInfo.preparePresentation(ComponentEntryInfo.java:259)
+	at org.eclipse.wb.core.editor.palette.model.entry.ComponentEntryInfo.initialize(ComponentEntryInfo.java:219)
+	at org.eclipse.wb.internal.core.editor.palette.DesignerPalette.getVisualEntry(DesignerPalette.java:267)
+	at org.eclipse.wb.internal.core.editor.palette.DesignerPalette$4.getEntries(DesignerPalette.java:347)
+	at org.eclipse.wb.core.controls.palette.PaletteComposite$CategoryFigure.<init>(PaletteComposite.java:368)
+	at org.eclipse.wb.core.controls.palette.PaletteComposite$PaletteFigure.refresh(PaletteComposite.java:284)
+	at org.eclipse.wb.core.controls.palette.PaletteComposite.refreshPalette(PaletteComposite.java:199)
+	at org.eclipse.wb.core.controls.palette.PaletteComposite.setPalette(PaletteComposite.java:192)
+	at org.eclipse.wb.internal.core.editor.palette.DesignerPalette.showPalette(DesignerPalette.java:462)
+	at org.eclipse.wb.internal.core.editor.palette.DesignerPalette.reloadPalette(DesignerPalette.java:182)
+	at org.eclipse.wb.internal.core.editor.palette.DesignerPalette.setInput(DesignerPalette.java:148)
+	at org.eclipse.wb.internal.core.editor.JavaDesignComposite.refresh(JavaDesignComposite.java:147)
+	at org.eclipse.wb.internal.core.editor.DesignPage.internal_refreshGEF(DesignPage.java:604)
+	at org.eclipse.wb.internal.core.editor.DesignPage$8$1.run(DesignPage.java:468)
+	at org.eclipse.swt.widgets.Synchronizer.syncExec(Synchronizer.java:236)
+	at org.eclipse.ui.internal.UISynchronizer.syncExec(UISynchronizer.java:133)
+	at org.eclipse.swt.widgets.Display.syncExec(Display.java:4779)
+	at org.eclipse.wb.internal.core.editor.DesignPage$8.run(DesignPage.java:464)
+	at org.eclipse.jface.operation.ModalContext.runInCurrentThread(ModalContext.java:434)
+	at org.eclipse.jface.operation.ModalContext.run(ModalContext.java:352)
+	at org.eclipse.jface.dialogs.ProgressMonitorDialog.run(ProgressMonitorDialog.java:470)
+	at org.eclipse.wb.internal.core.editor.DesignPage.internal_refreshGEF_withProgress(DesignPage.java:484)
+	at org.eclipse.wb.internal.core.editor.DesignPage.internal_refreshGEF(DesignPage.java:432)
+	at org.eclipse.wb.internal.core.editor.UndoManager.refreshDesignerEditor(UndoManager.java:389)
+	at org.eclipse.wb.internal.core.editor.UndoManager.activate(UndoManager.java:90)
+	at org.eclipse.wb.internal.core.editor.DesignPage.handleActiveState_True(DesignPage.java:275)
+	at org.eclipse.wb.internal.core.editor.DesignPage.handleActiveState(DesignPage.java:252)
+	at org.eclipse.wb.internal.core.editor.multi.DefaultMultiMode.showPage(DefaultMultiMode.java:127)
+	at org.eclipse.wb.internal.core.editor.multi.DefaultMultiMode$1.widgetSelected(DefaultMultiMode.java:63)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:252)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4243)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1063)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1087)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1072)
+	at org.eclipse.swt.widgets.Widget.notifyListeners(Widget.java:775)
+	at org.eclipse.swt.custom.CTabFolder.setSelection(CTabFolder.java:3248)
+	at org.eclipse.swt.custom.CTabFolder.onMouse(CTabFolder.java:1882)
+	at org.eclipse.swt.custom.CTabFolder.lambda$0(CTabFolder.java:331)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4243)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1063)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4060)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3632)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+
+!ENTRY org.eclipse.ui.ide 4 4 2022-11-15 07:20:22.126
+!MESSAGE Not properly disposed SWT resource
+!STACK 0
+java.lang.Error: SWT Resource was not properly disposed
+	at org.eclipse.swt.graphics.Resource.initNonDisposeTracking(Resource.java:172)
+	at org.eclipse.swt.graphics.Resource.<init>(Resource.java:120)
+	at org.eclipse.swt.graphics.Image.<init>(Image.java:605)
+	at org.eclipse.wb.internal.core.model.description.helpers.DescriptionHelper.getIconImage(DescriptionHelper.java:166)
+	at org.eclipse.wb.internal.core.model.description.helpers.ComponentPresentationHelper.getComponentImage(ComponentPresentationHelper.java:166)
+	at org.eclipse.wb.internal.core.model.description.helpers.ComponentPresentationHelper.getFastPresentation(ComponentPresentationHelper.java:139)
+	at org.eclipse.wb.internal.core.model.description.helpers.ComponentPresentationHelper.getPresentation(ComponentPresentationHelper.java:114)
+	at org.eclipse.wb.core.editor.palette.model.entry.ComponentEntryInfo.preparePresentation(ComponentEntryInfo.java:259)
+	at org.eclipse.wb.core.editor.palette.model.entry.ComponentEntryInfo.initialize(ComponentEntryInfo.java:219)
+	at org.eclipse.wb.internal.core.editor.palette.DesignerPalette.getVisualEntry(DesignerPalette.java:267)
+	at org.eclipse.wb.internal.core.editor.palette.DesignerPalette$4.getEntries(DesignerPalette.java:347)
+	at org.eclipse.wb.core.controls.palette.PaletteComposite$CategoryFigure.<init>(PaletteComposite.java:368)
+	at org.eclipse.wb.core.controls.palette.PaletteComposite$PaletteFigure.refresh(PaletteComposite.java:284)
+	at org.eclipse.wb.core.controls.palette.PaletteComposite.refreshPalette(PaletteComposite.java:199)
+	at org.eclipse.wb.core.controls.palette.PaletteComposite.setPalette(PaletteComposite.java:192)
+	at org.eclipse.wb.internal.core.editor.palette.DesignerPalette.showPalette(DesignerPalette.java:462)
+	at org.eclipse.wb.internal.core.editor.palette.DesignerPalette.reloadPalette(DesignerPalette.java:182)
+	at org.eclipse.wb.internal.core.editor.palette.DesignerPalette.setInput(DesignerPalette.java:148)
+	at org.eclipse.wb.internal.core.editor.JavaDesignComposite.refresh(JavaDesignComposite.java:147)
+	at org.eclipse.wb.internal.core.editor.DesignPage.internal_refreshGEF(DesignPage.java:604)
+	at org.eclipse.wb.internal.core.editor.DesignPage$8$1.run(DesignPage.java:468)
+	at org.eclipse.swt.widgets.Synchronizer.syncExec(Synchronizer.java:236)
+	at org.eclipse.ui.internal.UISynchronizer.syncExec(UISynchronizer.java:133)
+	at org.eclipse.swt.widgets.Display.syncExec(Display.java:4779)
+	at org.eclipse.wb.internal.core.editor.DesignPage$8.run(DesignPage.java:464)
+	at org.eclipse.jface.operation.ModalContext.runInCurrentThread(ModalContext.java:434)
+	at org.eclipse.jface.operation.ModalContext.run(ModalContext.java:352)
+	at org.eclipse.jface.dialogs.ProgressMonitorDialog.run(ProgressMonitorDialog.java:470)
+	at org.eclipse.wb.internal.core.editor.DesignPage.internal_refreshGEF_withProgress(DesignPage.java:484)
+	at org.eclipse.wb.internal.core.editor.DesignPage.internal_refreshGEF(DesignPage.java:432)
+	at org.eclipse.wb.internal.core.editor.UndoManager.refreshDesignerEditor(UndoManager.java:389)
+	at org.eclipse.wb.internal.core.editor.UndoManager.activate(UndoManager.java:90)
+	at org.eclipse.wb.internal.core.editor.DesignPage.handleActiveState_True(DesignPage.java:275)
+	at org.eclipse.wb.internal.core.editor.DesignPage.handleActiveState(DesignPage.java:252)
+	at org.eclipse.wb.internal.core.editor.multi.DefaultMultiMode.showPage(DefaultMultiMode.java:127)
+	at org.eclipse.wb.internal.core.editor.multi.DefaultMultiMode$1.widgetSelected(DefaultMultiMode.java:63)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:252)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4243)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1063)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1087)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1072)
+	at org.eclipse.swt.widgets.Widget.notifyListeners(Widget.java:775)
+	at org.eclipse.swt.custom.CTabFolder.setSelection(CTabFolder.java:3248)
+	at org.eclipse.swt.custom.CTabFolder.onMouse(CTabFolder.java:1882)
+	at org.eclipse.swt.custom.CTabFolder.lambda$0(CTabFolder.java:331)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4243)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1063)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4060)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3632)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+
+!ENTRY org.eclipse.wb.core 4 4 2022-11-15 07:20:28.317
+!MESSAGE Designer [1.11.0.202210231159.202211150713]: 205 (Unable to parse source.). 
+		contentPane.setLayout(new java.awt.GridLayout(1, 0, 0, 0)); line: 1 The import java.awt.EventQueue is never used
+line: 3 The import javax.swing.JPanel is never used
+line: 4 The import javax.swing.border.EmptyBorder is never used
+line: 5 The serializable class AddProduct does not declare a static final serialVersionUID field of type long
+!STACK 0
+org.eclipse.wb.internal.core.utils.exception.DesignerException: 205 (Unable to parse source.). 
+		contentPane.setLayout(new java.awt.GridLayout(1, 0, 0, 0)); line: 1 The import java.awt.EventQueue is never used
+line: 3 The import javax.swing.JPanel is never used
+line: 4 The import javax.swing.border.EmptyBorder is never used
+line: 5 The serializable class AddProduct does not declare a static final serialVersionUID field of type long
+	at org.eclipse.wb.internal.core.utils.ast.AstParser.parseStatement(AstParser.java:162)
+	at org.eclipse.wb.internal.core.utils.ast.AstEditor.addStatement(AstEditor.java:1628)
+	at org.eclipse.wb.internal.core.model.generation.statement.AbstractInsideStatementGenerator.add(AbstractInsideStatementGenerator.java:82)
+	at org.eclipse.wb.internal.core.model.generation.statement.PureFlatStatementGenerator.add(PureFlatStatementGenerator.java:45)
+	at org.eclipse.wb.internal.core.model.JavaInfoUtils.add(JavaInfoUtils.java:1392)
+	at org.eclipse.wb.internal.core.model.JavaInfoUtils.add(JavaInfoUtils.java:1295)
+	at org.eclipse.wb.internal.swing.model.component.ContainerInfo.setLayout(ContainerInfo.java:430)
+	at org.eclipse.wb.internal.swing.gef.policy.layout.DropLayoutEditPolicy$1.executeEdit(DropLayoutEditPolicy.java:81)
+	at org.eclipse.wb.core.gef.command.EditCommand$1.run(EditCommand.java:53)
+	at org.eclipse.wb.internal.core.utils.execution.ExecutionUtils.run(ExecutionUtils.java:331)
+	at org.eclipse.wb.core.gef.command.EditCommand.execute(EditCommand.java:50)
+	at org.eclipse.wb.internal.gef.core.EditDomain.executeCommand(EditDomain.java:59)
+	at org.eclipse.wb.gef.core.tools.Tool.executeCommand(Tool.java:209)
+	at org.eclipse.wb.gef.core.tools.AbstractCreationTool.handleButtonUp(AbstractCreationTool.java:62)
+	at org.eclipse.wb.gef.core.tools.Tool.mouseUp(Tool.java:395)
+	at org.eclipse.wb.internal.gef.core.EditDomain.mouseUp(EditDomain.java:255)
+	at org.eclipse.wb.internal.gef.graphical.EditEventManager.mouseUp(EditEventManager.java:151)
+	at jdk.internal.reflect.GeneratedMethodAccessor217.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.wb.internal.draw2d.EventManager$1.invoke(EventManager.java:317)
+	at jdk.proxy10/jdk.proxy10.$Proxy43.mouseUp(Unknown Source)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:224)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4243)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1063)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4060)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3632)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+Caused by: org.eclipse.wb.internal.core.utils.exception.DesignerException: 205 (Unable to parse source.). import java.awt.EventQueue;
+import javax.swing.JFrame;
+import javax.swing.JPanel;
+import javax.swing.border.EmptyBorder;
+class AddProduct extends JFrame {
+javax.swing.JPanel contentPane=(javax.swing.JPanel) null;
+public static void main(String[] args) {}
+AddProduct(Object __wbp_param) {
+super();
+		contentPane.setLayout(new java.awt.GridLayout(1, 0, 0, 0));}
+} line: 1 The import java.awt.EventQueue is never used
+line: 3 The import javax.swing.JPanel is never used
+line: 4 The import javax.swing.border.EmptyBorder is never used
+line: 5 The serializable class AddProduct does not declare a static final serialVersionUID field of type long
+	at org.eclipse.wb.internal.core.utils.ast.AstParser.findNode(AstParser.java:773)
+	at org.eclipse.wb.internal.core.utils.ast.AstParser.parseStatement(AstParser.java:159)
+	... 48 more
+Caused by: java.lang.NoSuchMethodError: 'java.lang.String[] org.eclipse.jdt.core.dom.IMethodBinding.getParameterNames()'
+	at org.eclipse.wb.internal.core.utils.ast.binding.DesignerMethodBinding.<init>(DesignerMethodBinding.java:56)
+	at org.eclipse.wb.internal.core.utils.ast.binding.BindingContext.get(BindingContext.java:87)
+	at org.eclipse.wb.internal.core.utils.ast.binding.DesignerTypeBinding.<init>(DesignerTypeBinding.java:160)
+	at org.eclipse.wb.internal.core.utils.ast.binding.BindingContext.get(BindingContext.java:70)
+	at org.eclipse.wb.internal.core.utils.ast.binding.DesignerTypeBinding.<init>(DesignerTypeBinding.java:146)
+	at org.eclipse.wb.internal.core.utils.ast.binding.BindingContext.get(BindingContext.java:70)
+	at org.eclipse.wb.internal.core.utils.ast.binding.DesignerTypeBinding.<init>(DesignerTypeBinding.java:146)
+	at org.eclipse.wb.internal.core.utils.ast.binding.BindingContext.get(BindingContext.java:70)
+	at org.eclipse.wb.internal.core.utils.ast.binding.DesignerTypeBinding.<init>(DesignerTypeBinding.java:146)
+	at org.eclipse.wb.internal.core.utils.ast.binding.BindingContext.get(BindingContext.java:70)
+	at org.eclipse.wb.internal.core.utils.ast.binding.DesignerTypeBinding.<init>(DesignerTypeBinding.java:146)
+	at org.eclipse.wb.internal.core.utils.ast.binding.BindingContext.get(BindingContext.java:70)
+	at org.eclipse.wb.internal.core.utils.ast.binding.DesignerVariableBinding.<init>(DesignerVariableBinding.java:44)
+	at org.eclipse.wb.internal.core.utils.ast.binding.BindingContext.get(BindingContext.java:94)
+	at org.eclipse.wb.internal.core.utils.ast.AstParser$3.postVisit(AstParser.java:935)
+	at org.eclipse.jdt.core.dom.ASTNode.accept(ASTNode.java:3132)
+	at org.eclipse.jdt.core.dom.ASTNode.acceptChild(ASTNode.java:3177)
+	at org.eclipse.jdt.core.dom.MethodInvocation.accept0(MethodInvocation.java:223)
+	at org.eclipse.jdt.core.dom.ASTNode.accept(ASTNode.java:3129)
+	at org.eclipse.jdt.core.dom.ASTNode.acceptChild(ASTNode.java:3177)
+	at org.eclipse.jdt.core.dom.ExpressionStatement.accept0(ExpressionStatement.java:136)
+	at org.eclipse.jdt.core.dom.ASTNode.accept(ASTNode.java:3129)
+	at org.eclipse.wb.internal.core.utils.ast.AstParser.copyBindings(AstParser.java:925)
+	at org.eclipse.wb.internal.core.utils.ast.AstParser.findNode0(AstParser.java:827)
+	at org.eclipse.wb.internal.core.utils.ast.AstParser.findNode(AstParser.java:770)
+	... 49 more
+
+!ENTRY org.eclipse.ui.ide 4 4 2022-11-15 07:22:24.850
+!MESSAGE Not properly disposed SWT resource
+!STACK 0
+java.lang.Error: SWT Resource was not properly disposed
+	at org.eclipse.swt.graphics.Resource.initNonDisposeTracking(Resource.java:172)
+	at org.eclipse.swt.graphics.Resource.<init>(Resource.java:120)
+	at org.eclipse.swt.graphics.Image.<init>(Image.java:605)
+	at org.eclipse.wb.internal.core.model.description.helpers.DescriptionHelper.getIconImage(DescriptionHelper.java:166)
+	at org.eclipse.wb.internal.core.model.description.helpers.ComponentPresentationHelper.getComponentImage(ComponentPresentationHelper.java:166)
+	at org.eclipse.wb.internal.core.model.description.helpers.ComponentPresentationHelper.getFastPresentation(ComponentPresentationHelper.java:139)
+	at org.eclipse.wb.internal.core.model.description.helpers.ComponentPresentationHelper.getPresentation(ComponentPresentationHelper.java:114)
+	at org.eclipse.wb.core.editor.palette.model.entry.ComponentEntryInfo.preparePresentation(ComponentEntryInfo.java:259)
+	at org.eclipse.wb.core.editor.palette.model.entry.ComponentEntryInfo.initialize(ComponentEntryInfo.java:219)
+	at org.eclipse.wb.internal.core.editor.palette.DesignerPalette.getVisualEntry(DesignerPalette.java:267)
+	at org.eclipse.wb.internal.core.editor.palette.DesignerPalette$4.getEntries(DesignerPalette.java:347)
+	at org.eclipse.wb.core.controls.palette.PaletteComposite$CategoryFigure.<init>(PaletteComposite.java:368)
+	at org.eclipse.wb.core.controls.palette.PaletteComposite$PaletteFigure.refresh(PaletteComposite.java:284)
+	at org.eclipse.wb.core.controls.palette.PaletteComposite.refreshPalette(PaletteComposite.java:199)
+	at org.eclipse.wb.core.controls.palette.PaletteComposite.setPalette(PaletteComposite.java:192)
+	at org.eclipse.wb.internal.core.editor.palette.DesignerPalette.showPalette(DesignerPalette.java:462)
+	at org.eclipse.wb.internal.core.editor.palette.DesignerPalette.reloadPalette(DesignerPalette.java:182)
+	at org.eclipse.wb.internal.core.editor.palette.DesignerPalette.setInput(DesignerPalette.java:148)
+	at org.eclipse.wb.internal.core.editor.JavaDesignComposite.refresh(JavaDesignComposite.java:147)
+	at org.eclipse.wb.internal.core.editor.DesignPage.internal_refreshGEF(DesignPage.java:604)
+	at org.eclipse.wb.internal.core.editor.DesignPage$8$1.run(DesignPage.java:468)
+	at org.eclipse.swt.widgets.Synchronizer.syncExec(Synchronizer.java:236)
+	at org.eclipse.ui.internal.UISynchronizer.syncExec(UISynchronizer.java:133)
+	at org.eclipse.swt.widgets.Display.syncExec(Display.java:4779)
+	at org.eclipse.wb.internal.core.editor.DesignPage$8.run(DesignPage.java:464)
+	at org.eclipse.jface.operation.ModalContext.runInCurrentThread(ModalContext.java:434)
+	at org.eclipse.jface.operation.ModalContext.run(ModalContext.java:352)
+	at org.eclipse.jface.dialogs.ProgressMonitorDialog.run(ProgressMonitorDialog.java:470)
+	at org.eclipse.wb.internal.core.editor.DesignPage.internal_refreshGEF_withProgress(DesignPage.java:484)
+	at org.eclipse.wb.internal.core.editor.DesignPage.internal_refreshGEF(DesignPage.java:432)
+	at org.eclipse.wb.internal.core.editor.UndoManager.refreshDesignerEditor(UndoManager.java:389)
+	at org.eclipse.wb.internal.core.editor.UndoManager.activate(UndoManager.java:90)
+	at org.eclipse.wb.internal.core.editor.DesignPage.handleActiveState_True(DesignPage.java:275)
+	at org.eclipse.wb.internal.core.editor.DesignPage.handleActiveState(DesignPage.java:252)
+	at org.eclipse.wb.internal.core.editor.multi.DefaultMultiMode.showPage(DefaultMultiMode.java:127)
+	at org.eclipse.wb.internal.core.editor.multi.DefaultMultiMode$1.widgetSelected(DefaultMultiMode.java:63)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:252)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4243)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1063)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1087)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1072)
+	at org.eclipse.swt.widgets.Widget.notifyListeners(Widget.java:775)
+	at org.eclipse.swt.custom.CTabFolder.setSelection(CTabFolder.java:3248)
+	at org.eclipse.swt.custom.CTabFolder.onMouse(CTabFolder.java:1882)
+	at org.eclipse.swt.custom.CTabFolder.lambda$0(CTabFolder.java:331)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4243)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1063)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4060)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3632)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+
+!ENTRY org.eclipse.wb.core 4 4 2022-11-15 07:23:10.391
+!MESSAGE Designer [1.11.0.202210231159.202211150713]: 205 (Unable to parse source.). 
+		contentPane.setLayout(null); line: 1 The import java.awt.EventQueue is never used
+line: 3 The import javax.swing.JPanel is never used
+line: 4 The import javax.swing.border.EmptyBorder is never used
+line: 5 The serializable class HomePage does not declare a static final serialVersionUID field of type long
+!STACK 0
+org.eclipse.wb.internal.core.utils.exception.DesignerException: 205 (Unable to parse source.). 
+		contentPane.setLayout(null); line: 1 The import java.awt.EventQueue is never used
+line: 3 The import javax.swing.JPanel is never used
+line: 4 The import javax.swing.border.EmptyBorder is never used
+line: 5 The serializable class HomePage does not declare a static final serialVersionUID field of type long
+	at org.eclipse.wb.internal.core.utils.ast.AstParser.parseStatement(AstParser.java:162)
+	at org.eclipse.wb.internal.core.utils.ast.AstEditor.addStatement(AstEditor.java:1628)
+	at org.eclipse.wb.internal.core.model.generation.statement.AbstractInsideStatementGenerator.add(AbstractInsideStatementGenerator.java:82)
+	at org.eclipse.wb.internal.core.model.generation.statement.PureFlatStatementGenerator.add(PureFlatStatementGenerator.java:45)
+	at org.eclipse.wb.internal.core.model.JavaInfoUtils.add(JavaInfoUtils.java:1392)
+	at org.eclipse.wb.internal.core.model.JavaInfoUtils.add(JavaInfoUtils.java:1295)
+	at org.eclipse.wb.internal.swing.model.component.ContainerInfo.setLayout(ContainerInfo.java:430)
+	at org.eclipse.wb.internal.swing.gef.policy.layout.DropLayoutEditPolicy$1.executeEdit(DropLayoutEditPolicy.java:81)
+	at org.eclipse.wb.core.gef.command.EditCommand$1.run(EditCommand.java:53)
+	at org.eclipse.wb.internal.core.utils.execution.ExecutionUtils.run(ExecutionUtils.java:331)
+	at org.eclipse.wb.core.gef.command.EditCommand.execute(EditCommand.java:50)
+	at org.eclipse.wb.internal.gef.core.EditDomain.executeCommand(EditDomain.java:59)
+	at org.eclipse.wb.gef.core.tools.Tool.executeCommand(Tool.java:209)
+	at org.eclipse.wb.gef.core.tools.AbstractCreationTool.handleButtonUp(AbstractCreationTool.java:62)
+	at org.eclipse.wb.gef.core.tools.Tool.mouseUp(Tool.java:395)
+	at org.eclipse.wb.internal.gef.core.EditDomain.mouseUp(EditDomain.java:255)
+	at org.eclipse.wb.internal.gef.graphical.EditEventManager.mouseUp(EditEventManager.java:151)
+	at jdk.internal.reflect.GeneratedMethodAccessor217.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.wb.internal.draw2d.EventManager$1.invoke(EventManager.java:317)
+	at jdk.proxy10/jdk.proxy10.$Proxy43.mouseUp(Unknown Source)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:224)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4243)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1063)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4060)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3632)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+Caused by: org.eclipse.wb.internal.core.utils.exception.DesignerException: 205 (Unable to parse source.). import java.awt.EventQueue;
+import javax.swing.JFrame;
+import javax.swing.JPanel;
+import javax.swing.border.EmptyBorder;
+class HomePage extends JFrame {
+javax.swing.JPanel contentPane=(javax.swing.JPanel) null;
+public static void main(String[] args) {}
+HomePage(Object __wbp_param) {
+super();
+		contentPane.setLayout(null);}
+} line: 1 The import java.awt.EventQueue is never used
+line: 3 The import javax.swing.JPanel is never used
+line: 4 The import javax.swing.border.EmptyBorder is never used
+line: 5 The serializable class HomePage does not declare a static final serialVersionUID field of type long
+	at org.eclipse.wb.internal.core.utils.ast.AstParser.findNode(AstParser.java:773)
+	at org.eclipse.wb.internal.core.utils.ast.AstParser.parseStatement(AstParser.java:159)
+	... 48 more
+Caused by: java.lang.NoSuchMethodError: 'java.lang.String[] org.eclipse.jdt.core.dom.IMethodBinding.getParameterNames()'
+	at org.eclipse.wb.internal.core.utils.ast.binding.DesignerMethodBinding.<init>(DesignerMethodBinding.java:56)
+	at org.eclipse.wb.internal.core.utils.ast.binding.BindingContext.get(BindingContext.java:87)
+	at org.eclipse.wb.internal.core.utils.ast.binding.DesignerTypeBinding.<init>(DesignerTypeBinding.java:160)
+	at org.eclipse.wb.internal.core.utils.ast.binding.BindingContext.get(BindingContext.java:70)
+	at org.eclipse.wb.internal.core.utils.ast.binding.DesignerTypeBinding.<init>(DesignerTypeBinding.java:146)
+	at org.eclipse.wb.internal.core.utils.ast.binding.BindingContext.get(BindingContext.java:70)
+	at org.eclipse.wb.internal.core.utils.ast.binding.DesignerTypeBinding.<init>(DesignerTypeBinding.java:146)
+	at org.eclipse.wb.internal.core.utils.ast.binding.BindingContext.get(BindingContext.java:70)
+	at org.eclipse.wb.internal.core.utils.ast.binding.DesignerTypeBinding.<init>(DesignerTypeBinding.java:146)
+	at org.eclipse.wb.internal.core.utils.ast.binding.BindingContext.get(BindingContext.java:70)
+	at org.eclipse.wb.internal.core.utils.ast.binding.DesignerTypeBinding.<init>(DesignerTypeBinding.java:146)
+	at org.eclipse.wb.internal.core.utils.ast.binding.BindingContext.get(BindingContext.java:70)
+	at org.eclipse.wb.internal.core.utils.ast.binding.DesignerVariableBinding.<init>(DesignerVariableBinding.java:44)
+	at org.eclipse.wb.internal.core.utils.ast.binding.BindingContext.get(BindingContext.java:94)
+	at org.eclipse.wb.internal.core.utils.ast.AstParser$3.postVisit(AstParser.java:935)
+	at org.eclipse.jdt.core.dom.ASTNode.accept(ASTNode.java:3132)
+	at org.eclipse.jdt.core.dom.ASTNode.acceptChild(ASTNode.java:3177)
+	at org.eclipse.jdt.core.dom.MethodInvocation.accept0(MethodInvocation.java:223)
+	at org.eclipse.jdt.core.dom.ASTNode.accept(ASTNode.java:3129)
+	at org.eclipse.jdt.core.dom.ASTNode.acceptChild(ASTNode.java:3177)
+	at org.eclipse.jdt.core.dom.ExpressionStatement.accept0(ExpressionStatement.java:136)
+	at org.eclipse.jdt.core.dom.ASTNode.accept(ASTNode.java:3129)
+	at org.eclipse.wb.internal.core.utils.ast.AstParser.copyBindings(AstParser.java:925)
+	at org.eclipse.wb.internal.core.utils.ast.AstParser.findNode0(AstParser.java:827)
+	at org.eclipse.wb.internal.core.utils.ast.AstParser.findNode(AstParser.java:770)
+	... 49 more
+!SESSION 2022-11-15 19:55:08.352 -----------------------------------------------
+eclipse.buildId=4.23.0.I20220308-0310
+java.version=17.0.2
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.jface 2 0 2022-11-15 19:57:54.036
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2022-11-15 19:57:54.036
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@27f6e2c3,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@3c89fdd8,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2022-11-15 19:57:54.037
+!MESSAGE A conflict occurred for ALT+SHIFT+R:
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.jdt.ui.category.refactoring,Refactor - Java,Java Refactoring Actions,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@665c79a2,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.rename,Rename,
+		Rename the selected item,
+		Category(org.eclipse.ui.category.file,File,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@3e79473d,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.egit.ui 2 0 2022-11-15 19:58:43.517
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\moham'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-11-15 19:59:24.462
+!MESSAGE 
+
+!ENTRY org.eclipse.wb.core 4 4 2022-11-15 20:11:22.598
+!MESSAGE Designer [1.11.0.202210231159.202211152011]: 205 (Unable to parse source.). 
+		contentPane.setLayout(null); line: 1 The import java.awt.EventQueue is never used
+line: 3 The import javax.swing.JPanel is never used
+line: 4 The import javax.swing.border.EmptyBorder is never used
+line: 5 The serializable class HomePage does not declare a static final serialVersionUID field of type long
+!STACK 0
+org.eclipse.wb.internal.core.utils.exception.DesignerException: 205 (Unable to parse source.). 
+		contentPane.setLayout(null); line: 1 The import java.awt.EventQueue is never used
+line: 3 The import javax.swing.JPanel is never used
+line: 4 The import javax.swing.border.EmptyBorder is never used
+line: 5 The serializable class HomePage does not declare a static final serialVersionUID field of type long
+	at org.eclipse.wb.internal.core.utils.ast.AstParser.parseStatement(AstParser.java:162)
+	at org.eclipse.wb.internal.core.utils.ast.AstEditor.addStatement(AstEditor.java:1628)
+	at org.eclipse.wb.internal.core.model.generation.statement.AbstractInsideStatementGenerator.add(AbstractInsideStatementGenerator.java:82)
+	at org.eclipse.wb.internal.core.model.generation.statement.PureFlatStatementGenerator.add(PureFlatStatementGenerator.java:45)
+	at org.eclipse.wb.internal.core.model.JavaInfoUtils.add(JavaInfoUtils.java:1392)
+	at org.eclipse.wb.internal.core.model.JavaInfoUtils.add(JavaInfoUtils.java:1295)
+	at org.eclipse.wb.internal.swing.model.component.ContainerInfo.setLayout(ContainerInfo.java:430)
+	at org.eclipse.wb.internal.swing.gef.policy.layout.DropLayoutEditPolicy$1.executeEdit(DropLayoutEditPolicy.java:81)
+	at org.eclipse.wb.core.gef.command.EditCommand$1.run(EditCommand.java:53)
+	at org.eclipse.wb.internal.core.utils.execution.ExecutionUtils.run(ExecutionUtils.java:331)
+	at org.eclipse.wb.core.gef.command.EditCommand.execute(EditCommand.java:50)
+	at org.eclipse.wb.internal.gef.core.EditDomain.executeCommand(EditDomain.java:59)
+	at org.eclipse.wb.gef.core.tools.Tool.executeCommand(Tool.java:209)
+	at org.eclipse.wb.gef.core.tools.AbstractCreationTool.handleButtonUp(AbstractCreationTool.java:62)
+	at org.eclipse.wb.gef.core.tools.Tool.mouseUp(Tool.java:395)
+	at org.eclipse.wb.internal.gef.core.EditDomain.mouseUp(EditDomain.java:255)
+	at org.eclipse.wb.internal.gef.graphical.EditEventManager.mouseUp(EditEventManager.java:151)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.wb.internal.draw2d.EventManager$1.invoke(EventManager.java:317)
+	at jdk.proxy9/jdk.proxy9.$Proxy25.mouseUp(Unknown Source)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:224)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4243)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1063)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4060)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3632)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+Caused by: org.eclipse.wb.internal.core.utils.exception.DesignerException: 205 (Unable to parse source.). import java.awt.EventQueue;
+import javax.swing.JFrame;
+import javax.swing.JPanel;
+import javax.swing.border.EmptyBorder;
+class HomePage extends JFrame {
+javax.swing.JPanel contentPane=(javax.swing.JPanel) null;
+public static void main(String[] args) {}
+HomePage(Object __wbp_param) {
+super();
+		contentPane.setLayout(null);}
+} line: 1 The import java.awt.EventQueue is never used
+line: 3 The import javax.swing.JPanel is never used
+line: 4 The import javax.swing.border.EmptyBorder is never used
+line: 5 The serializable class HomePage does not declare a static final serialVersionUID field of type long
+	at org.eclipse.wb.internal.core.utils.ast.AstParser.findNode(AstParser.java:773)
+	at org.eclipse.wb.internal.core.utils.ast.AstParser.parseStatement(AstParser.java:159)
+	... 49 more
+Caused by: java.lang.NoSuchMethodError: 'java.lang.String[] org.eclipse.jdt.core.dom.IMethodBinding.getParameterNames()'
+	at org.eclipse.wb.internal.core.utils.ast.binding.DesignerMethodBinding.<init>(DesignerMethodBinding.java:56)
+	at org.eclipse.wb.internal.core.utils.ast.binding.BindingContext.get(BindingContext.java:87)
+	at org.eclipse.wb.internal.core.utils.ast.binding.DesignerTypeBinding.<init>(DesignerTypeBinding.java:160)
+	at org.eclipse.wb.internal.core.utils.ast.binding.BindingContext.get(BindingContext.java:70)
+	at org.eclipse.wb.internal.core.utils.ast.binding.DesignerTypeBinding.<init>(DesignerTypeBinding.java:146)
+	at org.eclipse.wb.internal.core.utils.ast.binding.BindingContext.get(BindingContext.java:70)
+	at org.eclipse.wb.internal.core.utils.ast.binding.DesignerTypeBinding.<init>(DesignerTypeBinding.java:146)
+	at org.eclipse.wb.internal.core.utils.ast.binding.BindingContext.get(BindingContext.java:70)
+	at org.eclipse.wb.internal.core.utils.ast.binding.DesignerTypeBinding.<init>(DesignerTypeBinding.java:146)
+	at org.eclipse.wb.internal.core.utils.ast.binding.BindingContext.get(BindingContext.java:70)
+	at org.eclipse.wb.internal.core.utils.ast.binding.DesignerTypeBinding.<init>(DesignerTypeBinding.java:146)
+	at org.eclipse.wb.internal.core.utils.ast.binding.BindingContext.get(BindingContext.java:70)
+	at org.eclipse.wb.internal.core.utils.ast.binding.DesignerVariableBinding.<init>(DesignerVariableBinding.java:44)
+	at org.eclipse.wb.internal.core.utils.ast.binding.BindingContext.get(BindingContext.java:94)
+	at org.eclipse.wb.internal.core.utils.ast.AstParser$3.postVisit(AstParser.java:935)
+	at org.eclipse.jdt.core.dom.ASTNode.accept(ASTNode.java:3132)
+	at org.eclipse.jdt.core.dom.ASTNode.acceptChild(ASTNode.java:3177)
+	at org.eclipse.jdt.core.dom.MethodInvocation.accept0(MethodInvocation.java:223)
+	at org.eclipse.jdt.core.dom.ASTNode.accept(ASTNode.java:3129)
+	at org.eclipse.jdt.core.dom.ASTNode.acceptChild(ASTNode.java:3177)
+	at org.eclipse.jdt.core.dom.ExpressionStatement.accept0(ExpressionStatement.java:136)
+	at org.eclipse.jdt.core.dom.ASTNode.accept(ASTNode.java:3129)
+	at org.eclipse.wb.internal.core.utils.ast.AstParser.copyBindings(AstParser.java:925)
+	at org.eclipse.wb.internal.core.utils.ast.AstParser.findNode0(AstParser.java:827)
+	at org.eclipse.wb.internal.core.utils.ast.AstParser.findNode(AstParser.java:770)
+	... 50 more

@@ -37,3 +37,9 @@
 2022-11-13 07:27:42,214 [Worker-32: https://mirror.serverion.com/eclipse/releases/2022-09/202209141001/plugins/org.eclipse.wst.sse.core_1.2.800.v202207121749.jar] INFO  o.a.h.c.h.i.c.HttpRequestRetryExec - Recoverable I/O exception (java.net.SocketException) caught when processing request to {s}->https://mirror.serverion.com:443
 2022-11-13 07:33:16,120 [Worker-1: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
 2022-11-13 07:33:20,471 [Worker-2: Decoration Calculation] WARN  org.eclipse.jgit.util.FS_Win32 - null
+2022-11-14 06:53:39,225 [Worker-1: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2022-11-14 06:53:43,937 [Worker-3: Decoration Calculation] WARN  org.eclipse.jgit.util.FS_Win32 - null
+2022-11-15 07:00:35,469 [Worker-2: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2022-11-15 07:00:43,289 [Worker-0: Decoration Calculation] WARN  org.eclipse.jgit.util.FS_Win32 - null
+2022-11-15 19:58:44,391 [Worker-1: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2022-11-15 19:59:24,460 [Worker-2: Decoration Calculation] WARN  org.eclipse.jgit.util.FS_Win32 - null
