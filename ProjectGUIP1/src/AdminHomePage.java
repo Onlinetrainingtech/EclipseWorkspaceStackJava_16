@@ -6,6 +6,8 @@ import javax.swing.border.EmptyBorder;
 import javax.swing.JLabel;
 import java.awt.Font;
 import javax.swing.JButton;
+import java.awt.event.ActionListener;
+import java.awt.event.ActionEvent;
 
 public class AdminHomePage extends JFrame {
 
@@ -45,6 +47,12 @@ public class AdminHomePage extends JFrame {
 		contentPane.add(lblNewLabel);
 		
 		JButton btnNewButton = new JButton("AddProduct");
+		btnNewButton.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) 
+			{
+				new AddProduct().setVisible(true);
+			}
+		});
 		btnNewButton.setBounds(168, 78, 109, 23);
 		contentPane.add(btnNewButton);
 		

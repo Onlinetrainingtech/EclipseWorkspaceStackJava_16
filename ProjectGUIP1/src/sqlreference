@@ -1,0 +1,6 @@
+create table admin(adminname varchar(100),adminpass varchar(100))
+
+insert into admin values('admin','admin')
+
+
+create table userreg(username varchar(100),pass varchar(100),address varchar(100))
